@@ -4,8 +4,11 @@
 ### ruby
 Port of [/benchmark directory in ruby repository](https://github.com/ruby/ruby/tree/trunk/benchmark) for benchmark-driver.
 
-### methods
+### core
 Ruby core class's method benchmarks
+
+### stdlib
+Ruby standard library's benchmarks
 
 ## Status
 

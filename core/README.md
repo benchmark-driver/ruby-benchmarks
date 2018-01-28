@@ -1,3 +1,3 @@
-# ruby-benchmarks/methods
+# ruby-benchmarks/core
 
 Ruby core class's method benchmarks
