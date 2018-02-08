@@ -1,20 +1,21 @@
+prelude:
 
-class C
-  def m
-    1
+  class C
+    def m
+      1
+    end
   end
-end
 
-class CC < C
-  def m
-    super()
+  class CC < C
+    def m
+      super()
+    end
   end
-end
 
-obj = CC.new
+  obj = CC.new
 
-i = 0
-while i<6_000_000 # benchmark loop 2
-  obj.m
-  i += 1
-end
+  i = 0
+  while i<6_000_000 # benchmark loop 2
+    obj.m
+    i += 1
+  end

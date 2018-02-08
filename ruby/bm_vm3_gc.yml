@@ -1,6 +1,7 @@
-5000.times do
-  100.times do
-    {"xxxx"=>"yyyy"}
+prelude:
+  5000.times do
+    100.times do
+      {"xxxx"=>"yyyy"}
+    end
+    GC.start
   end
-  GC.start
-end

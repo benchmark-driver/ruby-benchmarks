@@ -1,14 +1,15 @@
-#
-# Seek and Write file.
-#
+prelude:
+  #
+  # Seek and Write file.
+  #
 
-require 'tempfile'
+  require 'tempfile'
 
-max = 200_000
-str = "Hello world!  " * 1000
-f = Tempfile.new('yarv-benchmark')
+  max = 200_000
+  str = "Hello world!  " * 1000
+  f = Tempfile.new('yarv-benchmark')
 
-max.times{
-  f.seek 0
-  f.write str
-}
+  max.times{
+    f.seek 0
+    f.write str
+  }
