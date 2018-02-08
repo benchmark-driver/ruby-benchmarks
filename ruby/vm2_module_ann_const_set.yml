@@ -4,3 +4,6 @@ prelude:
     i += 1
     Module.new.const_set(:X, Module.new)
   end
+
+benchmark:
+  vm2_module_ann_const_set:

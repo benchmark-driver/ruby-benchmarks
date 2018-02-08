@@ -5,3 +5,6 @@ prelude:
     eval("1")
   end
 
+
+benchmark:
+  vm2_eval:

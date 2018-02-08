@@ -26,3 +26,6 @@ prelude:
     i+=1
   end
 
+
+benchmark:
+  vm1_gc_short_with_complex_long:

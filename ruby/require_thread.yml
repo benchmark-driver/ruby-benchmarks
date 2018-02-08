@@ -14,3 +14,6 @@ prelude:
 
   $:.pop
   t.kill
+
+benchmark:
+  require_thread:

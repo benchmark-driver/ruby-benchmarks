@@ -7,3 +7,6 @@ prelude:
       def m; end
     }
   end
+
+benchmark:
+  vm3_clearmethodcache:

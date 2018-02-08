@@ -91,3 +91,6 @@ prelude:
       n -= WIDTH
   end
 
+
+benchmark:
+  so_pidigits:

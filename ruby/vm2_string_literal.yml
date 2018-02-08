@@ -4,3 +4,6 @@ prelude:
     i += 1
     x = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   end
+
+benchmark:
+  vm2_string_literal:

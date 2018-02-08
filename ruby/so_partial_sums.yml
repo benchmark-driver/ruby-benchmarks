@@ -30,3 +30,6 @@ prelude:
     printf("%.9f\tAlternating Harmonic\n", s7)
     printf("%.9f\tGregory\n", s8)
   end
+
+benchmark:
+  so_partial_sums:

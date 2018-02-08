@@ -12,3 +12,6 @@ prelude:
   }
   File.unlink(file)
 
+
+benchmark:
+  io_file_create:

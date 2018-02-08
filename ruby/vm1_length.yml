@@ -8,3 +8,6 @@ prelude:
     b.length
   end
 
+
+benchmark:
+  vm1_length:

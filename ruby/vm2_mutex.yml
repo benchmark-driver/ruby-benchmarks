@@ -8,3 +8,6 @@ prelude:
     i += 1
     m.synchronize{}
   end
+
+benchmark:
+  vm2_mutex:

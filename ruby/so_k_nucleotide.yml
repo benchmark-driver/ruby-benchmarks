@@ -47,3 +47,6 @@ prelude:
 
   %w(ggt ggta ggtatt ggtattttaatt ggtattttaatttatagt).each{|s| find_seq( seq,s) }
 
+
+benchmark:
+  so_k_nucleotide:

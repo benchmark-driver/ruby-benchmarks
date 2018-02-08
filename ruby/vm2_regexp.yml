@@ -5,3 +5,6 @@ prelude:
     /hoge/ =~ str
     i += 1
   end
+
+benchmark:
+  vm2_regexp:

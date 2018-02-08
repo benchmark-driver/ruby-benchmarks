@@ -9,3 +9,6 @@ prelude:
 
   fib(34)
 
+
+benchmark:
+  app_fib:

@@ -7,3 +7,6 @@ prelude:
     j = @a
     k = @a
   end
+
+benchmark:
+  vm1_ivar:

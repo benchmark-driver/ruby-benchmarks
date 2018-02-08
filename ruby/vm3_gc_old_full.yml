@@ -3,3 +3,6 @@ prelude:
   100.times do
     GC.start
   end
+
+benchmark:
+  vm3_gc_old_full:

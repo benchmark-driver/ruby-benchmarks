@@ -13,3 +13,6 @@ prelude:
     end
   end
 
+
+benchmark:
+  vm2_case:

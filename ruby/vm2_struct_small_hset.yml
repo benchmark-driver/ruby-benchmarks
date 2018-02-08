@@ -6,3 +6,6 @@ prelude:
     i += 1
     x[:a] = 1
   end
+
+benchmark:
+  vm2_struct_small_hset:

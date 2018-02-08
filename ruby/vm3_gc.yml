@@ -5,3 +5,6 @@ prelude:
     end
     GC.start
   end
+
+benchmark:
+  vm3_gc:

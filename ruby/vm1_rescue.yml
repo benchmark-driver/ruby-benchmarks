@@ -6,3 +6,6 @@ prelude:
     rescue
     end
   end
+
+benchmark:
+  vm1_rescue:

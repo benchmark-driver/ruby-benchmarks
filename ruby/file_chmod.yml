@@ -8,3 +8,6 @@ prelude:
     File.chmod(0777, path)
   end
   tmp.close!
+
+benchmark:
+  file_chmod:

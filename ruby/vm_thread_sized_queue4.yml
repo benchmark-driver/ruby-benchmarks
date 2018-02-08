@@ -25,3 +25,6 @@ prelude:
   producers.each(&:join)
   n.times { q.push nil }
   consumers.each(&:join)
+
+benchmark:
+  vm_thread_sized_queue4:

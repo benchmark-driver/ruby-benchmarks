@@ -17,3 +17,6 @@ prelude:
       # ignore
     end
   end
+
+benchmark:
+  vm2_raise1:

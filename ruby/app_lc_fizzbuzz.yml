@@ -51,3 +51,6 @@ prelude:
 
   answer_ary = answer.to_a
   # puts answer_ary
+
+benchmark:
+  app_lc_fizzbuzz:

@@ -8,3 +8,6 @@ prelude:
   1000.times do
     h.flatten
   end
+
+benchmark:
+  hash_flatten:

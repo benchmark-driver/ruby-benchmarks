@@ -7,3 +7,6 @@ prelude:
     rescue
     end
   end
+
+benchmark:
+  app_raise:

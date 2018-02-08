@@ -13,3 +13,6 @@ prelude:
       gen.next
     end
   end
+
+benchmark:
+  loop_generator:

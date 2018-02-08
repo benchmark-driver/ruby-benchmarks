@@ -5,3 +5,6 @@ prelude:
       Thread.pass
     end
   }
+
+benchmark:
+  vm_thread_alive_check1:

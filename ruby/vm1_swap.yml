@@ -7,3 +7,6 @@ prelude:
     a, b = b, a
   end
 
+
+benchmark:
+  vm1_swap:

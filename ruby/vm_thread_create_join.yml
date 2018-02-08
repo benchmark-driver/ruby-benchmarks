@@ -5,3 +5,6 @@ prelude:
     Thread.new{
     }.join
   end
+
+benchmark:
+  vm_thread_create_join:

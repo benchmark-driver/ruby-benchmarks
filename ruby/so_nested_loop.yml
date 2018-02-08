@@ -23,3 +23,6 @@ prelude:
   # puts x
 
 
+
+benchmark:
+  so_nested_loop:

@@ -16,3 +16,6 @@ prelude:
       end
     end
   end
+
+benchmark:
+  array_small_or:

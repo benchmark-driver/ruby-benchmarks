@@ -562,3 +562,6 @@ prelude:
   @boards_found = 0
 
   find_all ######## DO IT!!!
+
+benchmark:
+  so_meteor_contest:

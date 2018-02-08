@@ -4,3 +4,6 @@ prelude:
   Dir.mktmpdir('bm_dir_empty_p') do |dir|
     max.times { Dir.empty?(dir) }
   end
+
+benchmark:
+  dir_empty_p:

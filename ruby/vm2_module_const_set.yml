@@ -7,3 +7,6 @@ prelude:
     i += 1
     M.const_set(:X, Module.new)
   end
+
+benchmark:
+  vm2_module_const_set:

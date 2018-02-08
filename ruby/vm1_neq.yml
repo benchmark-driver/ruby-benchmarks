@@ -7,3 +7,6 @@ prelude:
     i += 1
     obj1 != obj2
   end
+
+benchmark:
+  vm1_neq:

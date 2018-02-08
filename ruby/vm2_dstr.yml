@@ -5,3 +5,6 @@ prelude:
     i += 1
     str = "foo#{x}bar#{y}baz"
   end
+
+benchmark:
+  vm2_dstr:

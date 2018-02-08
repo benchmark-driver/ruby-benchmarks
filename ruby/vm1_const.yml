@@ -7,3 +7,6 @@ prelude:
     j = Const
     k = Const
   end
+
+benchmark:
+  vm1_const:

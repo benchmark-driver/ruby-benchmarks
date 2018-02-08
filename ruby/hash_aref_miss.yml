@@ -4,3 +4,6 @@ prelude:
   strs.each { |s| h[s] = s }
   strs = ('A'..'Z').to_a
   200_000.times { strs.each { |s| h[s] } }
+
+benchmark:
+  hash_aref_miss:

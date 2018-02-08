@@ -8,3 +8,6 @@ prelude:
     m{}
   end
 
+
+benchmark:
+  vm1_blockparam:

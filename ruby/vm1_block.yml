@@ -9,3 +9,6 @@ prelude:
     m{
     }
   end
+
+benchmark:
+  vm1_block:

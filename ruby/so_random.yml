@@ -19,3 +19,6 @@ prelude:
     gen_random(100.0)
   end
   # "%.9f" % gen_random(100.0)
+
+benchmark:
+  so_random:

@@ -22,3 +22,6 @@ prelude:
   # puts "#{y.first} #{y.last}"
 
 
+
+benchmark:
+  so_array:

@@ -5,3 +5,6 @@ prelude:
     i += 1
     IO.pipe.each(&:close)
   end
+
+benchmark:
+  vm_thread_close:

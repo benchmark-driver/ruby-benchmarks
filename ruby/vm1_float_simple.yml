@@ -6,3 +6,6 @@ prelude:
     f += 0.1; f -= 0.1
     f += 0.1; f -= 0.1
   end
+
+benchmark:
+  vm1_float_simple:

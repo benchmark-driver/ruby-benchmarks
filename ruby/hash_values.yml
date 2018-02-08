@@ -8,3 +8,6 @@ prelude:
   5000.times do
     h.values
   end
+
+benchmark:
+  hash_values:

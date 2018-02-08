@@ -8,3 +8,6 @@ prelude:
     i += 1
     m{}
   end
+
+benchmark:
+  vm1_blockparam_call:

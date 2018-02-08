@@ -19,3 +19,6 @@ prelude:
     obj.m
     i += 1
   end
+
+benchmark:
+  vm2_super:

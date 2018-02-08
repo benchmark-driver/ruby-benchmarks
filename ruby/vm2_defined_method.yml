@@ -8,3 +8,6 @@ prelude:
     i += 1
     m; m; m; m; m; m; m; m;
   end
+
+benchmark:
+  vm2_defined_method:

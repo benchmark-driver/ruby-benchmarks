@@ -80,3 +80,6 @@ prelude:
   make_random_fasta('TWO', 'IUB ambiguity codes', iub, n*3)
   make_random_fasta('THREE', 'Homo sapiens frequency', homosapiens, n*5)
 
+
+benchmark:
+  so_fasta:

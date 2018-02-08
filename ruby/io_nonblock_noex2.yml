@@ -20,3 +20,6 @@ prelude:
     r.close
     w.close
   end
+
+benchmark:
+  io_nonblock_noex2:

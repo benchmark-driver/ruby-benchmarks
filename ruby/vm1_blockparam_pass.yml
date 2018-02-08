@@ -12,3 +12,6 @@ prelude:
     i += 1
     bp_pass{}
   end
+
+benchmark:
+  vm1_blockparam_pass:

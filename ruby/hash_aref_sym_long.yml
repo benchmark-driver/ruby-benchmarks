@@ -12,3 +12,6 @@ prelude:
   end
   syms.each { |s| h[s] = s }
   200_000.times { syms.each { |s| h[s] } }
+
+benchmark:
+  hash_aref_sym_long:

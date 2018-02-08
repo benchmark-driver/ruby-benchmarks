@@ -56,3 +56,6 @@ prelude:
       end
     end
   end
+
+benchmark:
+  so_mandelbrot:

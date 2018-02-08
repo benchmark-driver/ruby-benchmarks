@@ -13,3 +13,6 @@ prelude:
     pr.call
   end
 
+
+benchmark:
+  vm2_proc:

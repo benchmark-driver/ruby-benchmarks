@@ -25,3 +25,6 @@ prelude:
       </p>
     </body>
   </html>
+
+benchmark:
+  app_erb:

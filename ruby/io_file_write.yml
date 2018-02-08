@@ -13,3 +13,6 @@ prelude:
     f.seek 0
     f.write str
   }
+
+benchmark:
+  io_file_write:

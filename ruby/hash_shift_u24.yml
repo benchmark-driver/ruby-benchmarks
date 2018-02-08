@@ -9,3 +9,6 @@ prelude:
     k, v = h.shift
     h[k] = v
   end
+
+benchmark:
+  hash_shift_u24:

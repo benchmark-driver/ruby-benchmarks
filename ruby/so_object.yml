@@ -55,3 +55,6 @@ prelude:
       ntoggle = NthToggle.new 1, 3
   end
 
+
+benchmark:
+  so_object:

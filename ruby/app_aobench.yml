@@ -290,3 +290,6 @@ prelude:
 
   undef printf
   alias printf printf_orig
+
+benchmark:
+  app_aobench:

@@ -8,3 +8,6 @@ prelude:
     i += 1
     bp_yield{}
   end
+
+benchmark:
+  vm1_blockparam_yield:

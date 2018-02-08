@@ -27,3 +27,6 @@ prelude:
     end
   end
   wait.join
+
+benchmark:
+  vm_thread_condvar1:

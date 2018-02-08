@@ -34,3 +34,6 @@ prelude:
     wr.close if wr
     Process.waitpid(pid) if pid
   end if IO.respond_to?(:copy_stream)
+
+benchmark:
+  io_copy_stream_write_socket:

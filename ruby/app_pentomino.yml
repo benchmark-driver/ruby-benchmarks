@@ -258,3 +258,6 @@ prelude:
   $p[4] = [$p[4][0]]
   $pnum = (0...$p.length).to_a
   setpiece([],0)
+
+benchmark:
+  app_pentomino:

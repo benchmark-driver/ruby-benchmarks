@@ -10,3 +10,6 @@ prelude:
     end
   end
 
+
+benchmark:
+  vm1_ensure:

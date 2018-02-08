@@ -13,3 +13,6 @@ prelude:
     j = obj.a
     k = obj.b
   end
+
+benchmark:
+  vm1_attr_ivar:

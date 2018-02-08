@@ -60,3 +60,6 @@ prelude:
     i += 1
     some_function(i+1)
   end
+
+benchmark:
+  so_exception:

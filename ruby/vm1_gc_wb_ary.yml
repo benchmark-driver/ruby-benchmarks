@@ -11,3 +11,6 @@ prelude:
     short_lived_ary[0] = short_lived # write barrier
     i+=1
   end
+
+benchmark:
+  vm1_gc_wb_ary:

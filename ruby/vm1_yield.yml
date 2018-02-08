@@ -9,3 +9,6 @@ prelude:
 
   m{}
 
+
+benchmark:
+  vm1_yield:

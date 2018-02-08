@@ -29,3 +29,6 @@ prelude:
     end
   end
   revcomp(seq.join)
+
+benchmark:
+  so_reverse_complement:

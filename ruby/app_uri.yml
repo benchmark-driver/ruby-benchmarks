@@ -7,3 +7,6 @@ prelude:
     uri.host
     uri.port
   }
+
+benchmark:
+  app_uri:

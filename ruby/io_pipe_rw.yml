@@ -12,3 +12,6 @@ prelude:
   end
   w.close
   r.close
+
+benchmark:
+  io_pipe_rw:

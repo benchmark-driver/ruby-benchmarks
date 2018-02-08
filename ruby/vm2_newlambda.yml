@@ -4,3 +4,6 @@ prelude:
     i += 1
     lambda {}
   end
+
+benchmark:
+  vm2_newlambda:

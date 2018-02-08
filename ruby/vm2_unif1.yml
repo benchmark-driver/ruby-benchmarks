@@ -7,3 +7,6 @@ prelude:
     i += 1
     m 100, 200
   end
+
+benchmark:
+  vm2_unif1:

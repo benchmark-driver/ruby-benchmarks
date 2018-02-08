@@ -18,3 +18,6 @@ prelude:
   end
   # STDERR.puts "#{nl} #{nw} #{nc}"
 
+
+benchmark:
+  so_count_words:

@@ -49,3 +49,6 @@ prelude:
 
   str = "%0.9f" % (Math.sqrt(vBv/vv)), "\n"
   # print str
+
+benchmark:
+  so_spectralnorm:

@@ -42,3 +42,6 @@ prelude:
     printf "Primes up to %8d %8d\n", m, count
   end
 
+
+benchmark:
+  so_nsieve_bits:

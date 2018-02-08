@@ -12,3 +12,6 @@ prelude:
 
   tak(18, 9, 0)
 
+
+benchmark:
+  app_tak:

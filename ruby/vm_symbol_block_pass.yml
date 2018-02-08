@@ -12,3 +12,6 @@ prelude:
       c.tap(&n)
     end
   end
+
+benchmark:
+  vm_symbol_block_pass:

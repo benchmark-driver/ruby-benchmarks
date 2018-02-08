@@ -6,3 +6,6 @@ prelude:
     i += 1
     !obj
   end
+
+benchmark:
+  vm1_not:

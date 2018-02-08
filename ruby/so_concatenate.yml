@@ -17,3 +17,6 @@ prelude:
   # puts hello.length
 
 
+
+benchmark:
+  so_concatenate:

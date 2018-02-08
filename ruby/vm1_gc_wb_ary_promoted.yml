@@ -13,3 +13,6 @@ prelude:
     long_lived[0] = short_lived # write barrier
     i+=1
   end
+
+benchmark:
+  vm1_gc_wb_ary_promoted:

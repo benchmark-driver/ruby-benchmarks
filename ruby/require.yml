@@ -6,3 +6,6 @@ prelude:
   end
 
   $:.pop
+
+benchmark:
+  require:

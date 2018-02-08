@@ -8,3 +8,6 @@ prelude:
     IO.select nil, w
   }
 
+
+benchmark:
+  io_select:

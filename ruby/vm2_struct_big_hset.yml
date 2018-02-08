@@ -6,3 +6,6 @@ prelude:
     i += 1
     x[:k] = i
   end
+
+benchmark:
+  vm2_struct_big_hset:

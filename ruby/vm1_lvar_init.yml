@@ -17,3 +17,6 @@ prelude:
     m i
   end
 
+
+benchmark:
+  vm1_lvar_init:

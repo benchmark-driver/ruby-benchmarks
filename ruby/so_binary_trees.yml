@@ -61,3 +61,6 @@ prelude:
 
   undef puts
   alias puts puts_orig
+
+benchmark:
+  so_binary_trees:

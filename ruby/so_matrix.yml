@@ -47,3 +47,6 @@ prelude:
   # puts "#{mm[0][0]} #{mm[2][3]} #{mm[3][2]} #{mm[4][4]}"
 
 
+
+benchmark:
+  so_matrix:

@@ -17,3 +17,6 @@ prelude:
   }
 
   consumer.join
+
+benchmark:
+  vm_thread_queue:

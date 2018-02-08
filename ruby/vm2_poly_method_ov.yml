@@ -19,3 +19,6 @@ prelude:
   #  o.m; o.m; o.m; o.m; o.m; o.m; o.m; o.m
     i += 1
   end
+
+benchmark:
+  vm2_poly_method_ov:

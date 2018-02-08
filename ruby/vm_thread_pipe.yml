@@ -16,3 +16,6 @@ prelude:
     p "r:exit"
   }].each{|t| t.join}
 
+
+benchmark:
+  vm_thread_pipe:

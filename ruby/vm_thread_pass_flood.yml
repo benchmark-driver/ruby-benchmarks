@@ -9,3 +9,6 @@ prelude:
   while i<10000
     i += 1
   end
+
+benchmark:
+  vm_thread_pass_flood:

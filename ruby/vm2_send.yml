@@ -11,3 +11,6 @@ prelude:
     i += 1
     o.__send__ :m
   end
+
+benchmark:
+  vm2_send:

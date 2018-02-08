@@ -8,3 +8,6 @@ prelude:
   5000.times do
     h.keys
   end
+
+benchmark:
+  hash_keys:

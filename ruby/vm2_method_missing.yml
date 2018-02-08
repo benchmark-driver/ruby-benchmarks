@@ -11,3 +11,6 @@ prelude:
     i += 1
     obj.m; obj.m; obj.m; obj.m; obj.m; obj.m; obj.m; obj.m;
   end
+
+benchmark:
+  vm2_method_missing:

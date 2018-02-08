@@ -21,3 +21,6 @@ prelude:
   end
 
   rec 50
+
+benchmark:
+  vm3_backtrace:

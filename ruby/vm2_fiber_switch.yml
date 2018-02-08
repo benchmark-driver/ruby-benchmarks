@@ -8,3 +8,6 @@ prelude:
     i += 1
     fib.resume
   end
+
+benchmark:
+  vm2_fiber_switch:
