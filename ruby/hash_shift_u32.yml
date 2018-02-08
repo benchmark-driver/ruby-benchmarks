@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   h = {}
 
   (0xffff4000..0xffffffff).each do |i|

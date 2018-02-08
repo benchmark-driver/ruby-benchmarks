@@ -1,4 +1,4 @@
-prelude:
+prelude: |
 
   class C
     def m

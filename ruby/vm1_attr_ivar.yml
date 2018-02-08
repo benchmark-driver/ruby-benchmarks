@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   class C
     attr_reader :a, :b
     def initialize

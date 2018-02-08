@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   # make many symbols
   50_000.times{|i| sym = "sym#{i}".to_sym}
   GC.start

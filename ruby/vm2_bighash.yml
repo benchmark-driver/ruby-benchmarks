@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   i = 0
   while i<60_000 # benchmark loop 2
     i += 1

@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   short_lived_ary = []
 
   if RUBY_VERSION >= "2.2.0"

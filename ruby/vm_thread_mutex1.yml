@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   # one thread, one mutex (no contention)
 
   require 'thread'

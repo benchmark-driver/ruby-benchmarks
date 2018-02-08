@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   require 'thread'
   # on producer, one consumer
 

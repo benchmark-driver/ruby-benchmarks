@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   # IO.select performance. worst case of single fd.
 
   ios = []

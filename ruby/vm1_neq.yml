@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   i = 0
   obj1 = Object.new
   obj2 = Object.new

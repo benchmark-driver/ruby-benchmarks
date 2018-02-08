@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   h = {}
   syms = ('a'..'z').to_a
   begin

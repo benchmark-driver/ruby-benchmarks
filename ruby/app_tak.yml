@@ -1,4 +1,4 @@
-prelude:
+prelude: |
 
   def tak x, y, z
     unless y < x

@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   # two threads, one mutex
 
   require 'thread'

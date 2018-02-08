@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   # Plenty Thtread.pass
   # A performance may depend on GVL implementation.
 

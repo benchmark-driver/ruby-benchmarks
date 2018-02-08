@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   $:.push File.join(File.dirname(__FILE__), "bm_require.data")
 
   i=0

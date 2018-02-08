@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   #
   # Seek and Write file.
   #

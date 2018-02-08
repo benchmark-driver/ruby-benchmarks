@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   #!/usr/local/bin/ruby
   # This program is contributed by Shin Nishiyama
 

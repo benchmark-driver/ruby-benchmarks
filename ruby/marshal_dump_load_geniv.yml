@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   a = ''
   a.instance_eval do
     @a = :a

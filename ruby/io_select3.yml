@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   # IO.select performance. a lot of fd
 
   ios = []

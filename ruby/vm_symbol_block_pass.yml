@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   class C
     1000.times {|i|
       eval("def i#{i};end")

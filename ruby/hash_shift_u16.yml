@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   h = {}
 
   (16384..65536).each do |i|

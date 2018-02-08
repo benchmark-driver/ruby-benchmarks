@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   class Object
     define_method(:m){}
   end

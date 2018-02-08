@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   # 1000 threads, one mutex
 
   require 'thread'

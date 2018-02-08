@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   class C1
     def m; 1; end
   end

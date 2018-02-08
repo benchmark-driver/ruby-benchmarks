@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   def nested_hash h, n
     if n == 0
       ''

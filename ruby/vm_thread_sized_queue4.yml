@@ -1,4 +1,4 @@
-prelude:
+prelude: |
   require 'thread'
   # many producers, many consumers
   nr = 1_000_000
