@@ -13,3 +13,7 @@ Ruby standard library's benchmarks
 ## Status
 
 TBD
+
+## License
+
+Ruby's License. See [COPYING](./COPYING) for details.
