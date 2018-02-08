@@ -8,4 +8,4 @@ prelude:
   end
 
 benchmark:
-  vm2_struct_big_aset:
+  vm2_struct_big_aset: |

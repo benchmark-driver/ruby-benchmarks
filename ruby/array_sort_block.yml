@@ -3,4 +3,4 @@ prelude:
   10000.times { ary.sort { |a, b| a <=> b } }
 
 benchmark:
-  array_sort_block:
+  array_sort_block: |

@@ -13,4 +13,4 @@ prelude:
   end
 
 benchmark:
-  vm2_send:
+  vm2_send: |

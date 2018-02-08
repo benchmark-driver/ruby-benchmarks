@@ -5,4 +5,4 @@ prelude:
   50.times { strs.each { |s| h[s] } }
 
 benchmark:
-  hash_ident_flo:
+  hash_ident_flo: |

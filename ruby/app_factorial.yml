@@ -12,4 +12,4 @@ prelude:
   }
 
 benchmark:
-  app_factorial:
+  app_factorial: |

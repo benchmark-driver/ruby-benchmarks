@@ -11,4 +11,4 @@ prelude:
 
 
 benchmark:
-  vm1_yield:
+  vm1_yield: |

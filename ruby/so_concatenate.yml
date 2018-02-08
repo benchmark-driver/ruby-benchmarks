@@ -19,4 +19,4 @@ prelude:
 
 
 benchmark:
-  so_concatenate:
+  so_concatenate: |

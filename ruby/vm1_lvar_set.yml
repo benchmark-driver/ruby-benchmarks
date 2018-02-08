@@ -6,4 +6,4 @@ prelude:
   end
 
 benchmark:
-  vm1_lvar_set:
+  vm1_lvar_set: |

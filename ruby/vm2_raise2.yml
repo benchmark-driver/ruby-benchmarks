@@ -19,4 +19,4 @@ prelude:
   end
 
 benchmark:
-  vm2_raise2:
+  vm2_raise2: |

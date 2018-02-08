@@ -22,4 +22,4 @@ prelude:
   end
 
 benchmark:
-  hash_aref_dsym_long:
+  hash_aref_dsym_long: |

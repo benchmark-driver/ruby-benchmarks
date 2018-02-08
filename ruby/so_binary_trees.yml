@@ -63,4 +63,4 @@ prelude:
   alias puts puts_orig
 
 benchmark:
-  so_binary_trees:
+  so_binary_trees: |

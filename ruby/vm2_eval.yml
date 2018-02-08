@@ -7,4 +7,4 @@ prelude:
 
 
 benchmark:
-  vm2_eval:
+  vm2_eval: |

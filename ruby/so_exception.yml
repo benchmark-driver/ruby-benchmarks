@@ -62,4 +62,4 @@ prelude:
   end
 
 benchmark:
-  so_exception:
+  so_exception: |

@@ -25,4 +25,4 @@ prelude:
   count
 
 benchmark:
-  so_sieve:
+  so_sieve: |

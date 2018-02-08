@@ -9,4 +9,4 @@ prelude:
   end
 
 benchmark:
-  vm3_clearmethodcache:
+  vm3_clearmethodcache: |

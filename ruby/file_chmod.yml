@@ -10,4 +10,4 @@ prelude:
   tmp.close!
 
 benchmark:
-  file_chmod:
+  file_chmod: |

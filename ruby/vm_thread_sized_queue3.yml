@@ -23,4 +23,4 @@ prelude:
   consumer.join
 
 benchmark:
-  vm_thread_sized_queue3:
+  vm_thread_sized_queue3: |

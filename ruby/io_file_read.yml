@@ -16,4 +16,4 @@ prelude:
   }
 
 benchmark:
-  io_file_read:
+  io_file_read: |

@@ -18,4 +18,4 @@ prelude:
   end
 
 benchmark:
-  array_small_diff:
+  array_small_diff: |

@@ -48,4 +48,4 @@ prelude:
   result
 
 benchmark:
-  so_lists:
+  so_lists: |

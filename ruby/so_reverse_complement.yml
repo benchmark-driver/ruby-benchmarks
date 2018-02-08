@@ -31,4 +31,4 @@ prelude:
   revcomp(seq.join)
 
 benchmark:
-  so_reverse_complement:
+  so_reverse_complement: |

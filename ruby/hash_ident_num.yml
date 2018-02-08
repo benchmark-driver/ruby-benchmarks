@@ -5,4 +5,4 @@ prelude:
   200_000.times { nums.each { |n| h[n] } }
 
 benchmark:
-  hash_ident_num:
+  hash_ident_num: |

@@ -6,4 +6,4 @@ prelude:
   end
 
 benchmark:
-  vm2_newlambda:
+  vm2_newlambda: |

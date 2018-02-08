@@ -8,4 +8,4 @@ prelude:
   end
 
 benchmark:
-  vm1_not:
+  vm1_not: |

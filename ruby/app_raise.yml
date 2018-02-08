@@ -9,4 +9,4 @@ prelude:
   end
 
 benchmark:
-  app_raise:
+  app_raise: |

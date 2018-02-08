@@ -15,4 +15,4 @@ prelude:
   end
 
 benchmark:
-  loop_generator:
+  loop_generator: |

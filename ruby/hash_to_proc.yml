@@ -10,4 +10,4 @@ prelude:
   end
 
 benchmark:
-  hash_to_proc:
+  hash_to_proc: |

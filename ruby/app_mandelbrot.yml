@@ -24,4 +24,4 @@ prelude:
 
 
 benchmark:
-  app_mandelbrot:
+  app_mandelbrot: |

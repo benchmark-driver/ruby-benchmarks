@@ -9,4 +9,4 @@ prelude:
   }
 
 benchmark:
-  app_uri:
+  app_uri: |

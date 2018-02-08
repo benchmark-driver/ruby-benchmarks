@@ -2,4 +2,4 @@ prelude:
   1000000.times.map{|i| a={}; 8.times{|j| a[j]=j}; a}
 
 benchmark:
-  hash_small8:
+  hash_small8: |

@@ -14,4 +14,4 @@ prelude:
 
 
 benchmark:
-  app_tak:
+  app_tak: |

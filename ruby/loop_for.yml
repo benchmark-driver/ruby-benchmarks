@@ -4,4 +4,4 @@ prelude:
   end
 
 benchmark:
-  loop_for:
+  loop_for: |

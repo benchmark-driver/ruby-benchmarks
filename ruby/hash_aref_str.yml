@@ -5,4 +5,4 @@ prelude:
   200_000.times { strs.each { |s| h[s] } }
 
 benchmark:
-  hash_aref_str:
+  hash_aref_str: |

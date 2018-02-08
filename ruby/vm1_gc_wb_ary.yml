@@ -13,4 +13,4 @@ prelude:
   end
 
 benchmark:
-  vm1_gc_wb_ary:
+  vm1_gc_wb_ary: |

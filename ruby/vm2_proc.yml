@@ -15,4 +15,4 @@ prelude:
 
 
 benchmark:
-  vm2_proc:
+  vm2_proc: |

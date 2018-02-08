@@ -27,4 +27,4 @@ prelude:
   </html>
 
 benchmark:
-  app_erb:
+  app_erb: |

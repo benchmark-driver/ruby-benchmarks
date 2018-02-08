@@ -7,4 +7,4 @@ prelude:
   end
 
 benchmark:
-  vm2_dstr:
+  vm2_dstr: |

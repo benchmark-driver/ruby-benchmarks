@@ -3,4 +3,4 @@ prelude:
   100.times { Marshal.dump(bug10761) }
 
 benchmark:
-  marshal_dump_flo:
+  marshal_dump_flo: |

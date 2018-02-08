@@ -6,4 +6,4 @@ prelude:
   end
 
 benchmark:
-  vm2_module_ann_const_set:
+  vm2_module_ann_const_set: |

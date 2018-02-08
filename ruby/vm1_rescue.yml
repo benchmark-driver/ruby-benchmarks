@@ -8,4 +8,4 @@ prelude:
   end
 
 benchmark:
-  vm1_rescue:
+  vm1_rescue: |

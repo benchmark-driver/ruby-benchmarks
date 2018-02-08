@@ -46,4 +46,4 @@ prelude:
 
 
 benchmark:
-  so_fannkuch:
+  so_fannkuch: |

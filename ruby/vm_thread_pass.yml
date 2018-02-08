@@ -16,4 +16,4 @@ prelude:
 
 
 benchmark:
-  vm_thread_pass:
+  vm_thread_pass: |

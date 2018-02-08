@@ -53,4 +53,4 @@ prelude:
   # puts answer_ary
 
 benchmark:
-  app_lc_fizzbuzz:
+  app_lc_fizzbuzz: |

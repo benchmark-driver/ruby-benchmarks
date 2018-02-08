@@ -27,4 +27,4 @@ prelude:
   consumers.each(&:join)
 
 benchmark:
-  vm_thread_sized_queue4:
+  vm_thread_sized_queue4: |

@@ -24,4 +24,4 @@ prelude:
 
 
 benchmark:
-  so_array:
+  so_array: |

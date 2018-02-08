@@ -10,4 +10,4 @@ prelude:
   end
 
 benchmark:
-  vm2_mutex:
+  vm2_mutex: |

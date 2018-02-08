@@ -15,4 +15,4 @@ prelude:
 
 
 benchmark:
-  vm2_case:
+  vm2_case: |

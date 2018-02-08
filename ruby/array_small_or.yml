@@ -18,4 +18,4 @@ prelude:
   end
 
 benchmark:
-  array_small_or:
+  array_small_or: |

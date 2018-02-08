@@ -5,4 +5,4 @@ prelude:
   end
 
 benchmark:
-  vm3_gc_old_immediate:
+  vm3_gc_old_immediate: |

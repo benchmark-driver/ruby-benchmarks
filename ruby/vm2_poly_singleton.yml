@@ -15,4 +15,4 @@ prelude:
   end
 
 benchmark:
-  vm2_poly_singleton:
+  vm2_poly_singleton: |

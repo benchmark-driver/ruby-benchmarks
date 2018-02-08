@@ -21,4 +21,4 @@ prelude:
   # "%.9f" % gen_random(100.0)
 
 benchmark:
-  so_random:
+  so_random: |

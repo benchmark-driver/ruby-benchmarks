@@ -18,4 +18,4 @@ prelude:
   end
 
 benchmark:
-  vm1_gc_wb_obj_promoted:
+  vm1_gc_wb_obj_promoted: |

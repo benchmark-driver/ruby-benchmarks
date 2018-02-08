@@ -7,4 +7,4 @@ prelude:
   }
 
 benchmark:
-  vm_thread_alive_check1:
+  vm_thread_alive_check1: |

@@ -16,4 +16,4 @@ prelude:
   end
 
 benchmark:
-  vm1_gc_short_with_symbol:
+  vm1_gc_short_with_symbol: |

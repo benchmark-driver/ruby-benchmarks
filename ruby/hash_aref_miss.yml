@@ -6,4 +6,4 @@ prelude:
   200_000.times { strs.each { |s| h[s] } }
 
 benchmark:
-  hash_aref_miss:
+  hash_aref_miss: |

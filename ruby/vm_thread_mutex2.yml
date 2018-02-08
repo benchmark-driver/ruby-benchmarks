@@ -22,4 +22,4 @@ prelude:
   raise r.to_s if r != max * max
 
 benchmark:
-  vm_thread_mutex2:
+  vm_thread_mutex2: |

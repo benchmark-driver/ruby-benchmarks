@@ -19,4 +19,4 @@ prelude:
 
 
 benchmark:
-  vm1_lvar_init:
+  vm1_lvar_init: |

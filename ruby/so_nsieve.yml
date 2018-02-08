@@ -36,4 +36,4 @@ prelude:
   end
 
 benchmark:
-  so_nsieve:
+  so_nsieve: |

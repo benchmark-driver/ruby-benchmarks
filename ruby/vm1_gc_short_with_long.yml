@@ -14,4 +14,4 @@ prelude:
   end
 
 benchmark:
-  vm1_gc_short_with_long:
+  vm1_gc_short_with_long: |

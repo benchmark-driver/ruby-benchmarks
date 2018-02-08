@@ -149,4 +149,4 @@ prelude:
   puts "%.9f" % energy(BODIES)
 
 benchmark:
-  so_nbody:
+  so_nbody: |

@@ -5,4 +5,4 @@ prelude:
   200_000.times { syms.each { |s| h[s] } }
 
 benchmark:
-  hash_ident_sym:
+  hash_ident_sym: |

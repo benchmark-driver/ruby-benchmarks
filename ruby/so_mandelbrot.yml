@@ -58,4 +58,4 @@ prelude:
   end
 
 benchmark:
-  so_mandelbrot:
+  so_mandelbrot: |

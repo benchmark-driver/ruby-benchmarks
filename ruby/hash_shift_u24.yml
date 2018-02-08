@@ -11,4 +11,4 @@ prelude:
   end
 
 benchmark:
-  hash_shift_u24:
+  hash_shift_u24: |

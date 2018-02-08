@@ -9,4 +9,4 @@ prelude:
   end
 
 benchmark:
-  vm1_ivar:
+  vm1_ivar: |

@@ -10,4 +10,4 @@ prelude:
 
 
 benchmark:
-  vm1_simplereturn:
+  vm1_simplereturn: |

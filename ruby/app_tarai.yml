@@ -11,4 +11,4 @@ prelude:
   tarai(12, 6, 0)
 
 benchmark:
-  app_tarai:
+  app_tarai: |

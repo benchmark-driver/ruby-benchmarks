@@ -11,4 +11,4 @@ prelude:
 
 
 benchmark:
-  app_fib:
+  app_fib: |

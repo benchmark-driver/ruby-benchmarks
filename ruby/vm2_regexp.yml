@@ -7,4 +7,4 @@ prelude:
   end
 
 benchmark:
-  vm2_regexp:
+  vm2_regexp: |

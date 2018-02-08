@@ -20,4 +20,4 @@ prelude:
   end
 
 benchmark:
-  vm2_case_lit:
+  vm2_case_lit: |

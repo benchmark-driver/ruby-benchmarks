@@ -10,4 +10,4 @@ prelude:
   end
 
 benchmark:
-  hash_flatten:
+  hash_flatten: |

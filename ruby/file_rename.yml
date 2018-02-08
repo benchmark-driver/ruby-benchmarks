@@ -12,4 +12,4 @@ prelude:
   tmp.each { |t| t.close! }
 
 benchmark:
-  file_rename:
+  file_rename: |

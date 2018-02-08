@@ -22,4 +22,4 @@ prelude:
   end
 
 benchmark:
-  io_nonblock_noex2:
+  io_nonblock_noex2: |

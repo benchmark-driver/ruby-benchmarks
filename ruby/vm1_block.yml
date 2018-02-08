@@ -11,4 +11,4 @@ prelude:
   end
 
 benchmark:
-  vm1_block:
+  vm1_block: |

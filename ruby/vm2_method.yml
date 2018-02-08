@@ -10,4 +10,4 @@ prelude:
   end
 
 benchmark:
-  vm2_method:
+  vm2_method: |

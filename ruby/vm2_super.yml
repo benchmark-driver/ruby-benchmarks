@@ -21,4 +21,4 @@ prelude:
   end
 
 benchmark:
-  vm2_super:
+  vm2_super: |

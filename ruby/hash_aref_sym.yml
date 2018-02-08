@@ -10,4 +10,4 @@ prelude:
   200_000.times { syms.each { |s| h[s] } }
 
 benchmark:
-  hash_aref_sym:
+  hash_aref_sym: |

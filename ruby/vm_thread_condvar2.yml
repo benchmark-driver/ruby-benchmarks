@@ -36,4 +36,4 @@ prelude:
   waiters.each(&:join)
 
 benchmark:
-  vm_thread_condvar2:
+  vm_thread_condvar2: |

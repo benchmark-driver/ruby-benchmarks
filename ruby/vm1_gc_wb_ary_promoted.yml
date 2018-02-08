@@ -15,4 +15,4 @@ prelude:
   end
 
 benchmark:
-  vm1_gc_wb_ary_promoted:
+  vm1_gc_wb_ary_promoted: |

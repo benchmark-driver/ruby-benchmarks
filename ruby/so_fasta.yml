@@ -82,4 +82,4 @@ prelude:
 
 
 benchmark:
-  so_fasta:
+  so_fasta: |

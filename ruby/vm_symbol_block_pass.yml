@@ -14,4 +14,4 @@ prelude:
   end
 
 benchmark:
-  vm_symbol_block_pass:
+  vm_symbol_block_pass: |

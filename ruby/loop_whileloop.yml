@@ -5,4 +5,4 @@ prelude:
   end
 
 benchmark:
-  loop_whileloop:
+  loop_whileloop: |

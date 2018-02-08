@@ -28,4 +28,4 @@ prelude:
 
 
 benchmark:
-  vm1_gc_short_with_complex_long:
+  vm1_gc_short_with_complex_long: |

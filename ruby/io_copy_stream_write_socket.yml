@@ -36,4 +36,4 @@ prelude:
   end if IO.respond_to?(:copy_stream)
 
 benchmark:
-  io_copy_stream_write_socket:
+  io_copy_stream_write_socket: |

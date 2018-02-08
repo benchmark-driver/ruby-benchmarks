@@ -11,4 +11,4 @@ prelude:
   end
 
 benchmark:
-  hash_shift_u32:
+  hash_shift_u32: |

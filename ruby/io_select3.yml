@@ -22,4 +22,4 @@ prelude:
 
 
 benchmark:
-  io_select3:
+  io_select3: |

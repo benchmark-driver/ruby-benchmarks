@@ -14,4 +14,4 @@ prelude:
   r.close
 
 benchmark:
-  io_pipe_rw:
+  io_pipe_rw: |

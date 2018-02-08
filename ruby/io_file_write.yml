@@ -15,4 +15,4 @@ prelude:
   }
 
 benchmark:
-  io_file_write:
+  io_file_write: |

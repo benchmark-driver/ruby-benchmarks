@@ -10,4 +10,4 @@ prelude:
 
 
 benchmark:
-  vm1_blockparam:
+  vm1_blockparam: |

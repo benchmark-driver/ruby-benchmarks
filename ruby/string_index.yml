@@ -4,4 +4,4 @@ prelude:
   100_000.times { str1.index(str2) }
 
 benchmark:
-  string_index:
+  string_index: |

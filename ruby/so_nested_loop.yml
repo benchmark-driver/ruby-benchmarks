@@ -25,4 +25,4 @@ prelude:
 
 
 benchmark:
-  so_nested_loop:
+  so_nested_loop: |

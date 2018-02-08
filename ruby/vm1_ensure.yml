@@ -12,4 +12,4 @@ prelude:
 
 
 benchmark:
-  vm1_ensure:
+  vm1_ensure: |

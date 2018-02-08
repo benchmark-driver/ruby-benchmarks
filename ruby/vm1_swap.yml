@@ -9,4 +9,4 @@ prelude:
 
 
 benchmark:
-  vm1_swap:
+  vm1_swap: |

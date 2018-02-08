@@ -11,4 +11,4 @@ prelude:
   #p(a.instance_eval { @a == :a && @b == :b && @c == :c })
 
 benchmark:
-  marshal_dump_load_geniv:
+  marshal_dump_load_geniv: |

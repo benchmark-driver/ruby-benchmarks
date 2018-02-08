@@ -16,4 +16,4 @@ prelude:
   t.kill
 
 benchmark:
-  require_thread:
+  require_thread: |

@@ -6,4 +6,4 @@ prelude:
   end
 
 benchmark:
-  vm2_bighash:
+  vm2_bighash: |

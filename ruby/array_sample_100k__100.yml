@@ -3,4 +3,4 @@ prelude:
   10_000.times {arr.sample 100}
 
 benchmark:
-  array_sample_100k__100:
+  array_sample_100k__100: |

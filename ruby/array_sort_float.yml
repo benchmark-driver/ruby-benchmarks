@@ -3,4 +3,4 @@ prelude:
   10000.times { arr.sort }
 
 benchmark:
-  array_sort_float:
+  array_sort_float: |

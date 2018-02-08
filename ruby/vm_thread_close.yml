@@ -7,4 +7,4 @@ prelude:
   end
 
 benchmark:
-  vm_thread_close:
+  vm_thread_close: |

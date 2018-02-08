@@ -51,4 +51,4 @@ prelude:
   # print str
 
 benchmark:
-  so_spectralnorm:
+  so_spectralnorm: |

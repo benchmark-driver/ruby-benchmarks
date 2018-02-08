@@ -10,4 +10,4 @@ prelude:
 
 
 benchmark:
-  vm1_length:
+  vm1_length: |

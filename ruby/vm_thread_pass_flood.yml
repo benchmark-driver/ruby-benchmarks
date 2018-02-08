@@ -11,4 +11,4 @@ prelude:
   end
 
 benchmark:
-  vm_thread_pass_flood:
+  vm_thread_pass_flood: |

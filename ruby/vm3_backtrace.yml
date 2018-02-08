@@ -23,4 +23,4 @@ prelude:
   rec 50
 
 benchmark:
-  vm3_backtrace:
+  vm3_backtrace: |

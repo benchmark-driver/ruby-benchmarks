@@ -2,4 +2,4 @@ prelude:
   30_000_000.times{|e|}
 
 benchmark:
-  loop_times:
+  loop_times: |

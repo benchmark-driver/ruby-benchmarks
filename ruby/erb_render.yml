@@ -27,4 +27,4 @@ prelude:
   </html>
 
 benchmark:
-  erb_render:
+  erb_render: |

@@ -3,4 +3,4 @@ prelude:
   1_000.times { str.scan('abc') }
 
 benchmark:
-  string_scan_str:
+  string_scan_str: |

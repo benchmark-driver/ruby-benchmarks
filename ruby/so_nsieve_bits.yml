@@ -44,4 +44,4 @@ prelude:
 
 
 benchmark:
-  so_nsieve_bits:
+  so_nsieve_bits: |

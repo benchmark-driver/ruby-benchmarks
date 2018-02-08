@@ -10,4 +10,4 @@ prelude:
 
 
 benchmark:
-  io_select:
+  io_select: |

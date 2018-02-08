@@ -13,4 +13,4 @@ prelude:
   end
 
 benchmark:
-  vm2_method_missing:
+  vm2_method_missing: |

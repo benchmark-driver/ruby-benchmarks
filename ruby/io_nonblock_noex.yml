@@ -23,4 +23,4 @@ prelude:
   end
 
 benchmark:
-  io_nonblock_noex:
+  io_nonblock_noex: |

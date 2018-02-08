@@ -9,4 +9,4 @@ prelude:
   end
 
 benchmark:
-  vm1_neq:
+  vm1_neq: |

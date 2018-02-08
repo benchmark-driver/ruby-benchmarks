@@ -23,4 +23,4 @@ prelude:
 
 
 benchmark:
-  io_select2:
+  io_select2: |

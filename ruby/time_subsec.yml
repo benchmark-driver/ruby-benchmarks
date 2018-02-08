@@ -3,4 +3,4 @@ prelude:
   4000000.times { t.subsec }
 
 benchmark:
-  time_subsec:
+  time_subsec: |

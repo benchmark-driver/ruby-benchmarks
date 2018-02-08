@@ -5,4 +5,4 @@ prelude:
   200_000.times { objs.each { |o| h[o] } }
 
 benchmark:
-  hash_ident_obj:
+  hash_ident_obj: |

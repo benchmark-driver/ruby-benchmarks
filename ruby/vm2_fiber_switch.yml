@@ -10,4 +10,4 @@ prelude:
   end
 
 benchmark:
-  vm2_fiber_switch:
+  vm2_fiber_switch: |

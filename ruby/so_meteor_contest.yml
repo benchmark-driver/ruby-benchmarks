@@ -564,4 +564,4 @@ prelude:
   find_all ######## DO IT!!!
 
 benchmark:
-  so_meteor_contest:
+  so_meteor_contest: |

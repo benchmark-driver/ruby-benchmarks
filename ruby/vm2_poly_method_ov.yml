@@ -21,4 +21,4 @@ prelude:
   end
 
 benchmark:
-  vm2_poly_method_ov:
+  vm2_poly_method_ov: |

@@ -32,4 +32,4 @@ prelude:
   end
 
 benchmark:
-  so_partial_sums:
+  so_partial_sums: |

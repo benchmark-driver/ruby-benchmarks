@@ -20,4 +20,4 @@ prelude:
 
 
 benchmark:
-  so_count_words:
+  so_count_words: |

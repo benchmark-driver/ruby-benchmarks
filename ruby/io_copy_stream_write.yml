@@ -25,4 +25,4 @@ prelude:
   end if IO.respond_to?(:copy_stream) && IO.const_defined?(:NULL)
 
 benchmark:
-  io_copy_stream_write:
+  io_copy_stream_write: |

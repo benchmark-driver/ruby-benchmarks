@@ -10,4 +10,4 @@ prelude:
   end
 
 benchmark:
-  vm1_blockparam_call:
+  vm1_blockparam_call: |

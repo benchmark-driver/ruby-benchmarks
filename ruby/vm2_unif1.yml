@@ -9,4 +9,4 @@ prelude:
   end
 
 benchmark:
-  vm2_unif1:
+  vm2_unif1: |

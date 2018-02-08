@@ -107,4 +107,4 @@ prelude:
   end
 
 benchmark:
-  vm2_bigarray:
+  vm2_bigarray: |

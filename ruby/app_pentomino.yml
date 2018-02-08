@@ -260,4 +260,4 @@ prelude:
   setpiece([],0)
 
 benchmark:
-  app_pentomino:
+  app_pentomino: |

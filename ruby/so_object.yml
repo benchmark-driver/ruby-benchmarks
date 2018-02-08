@@ -57,4 +57,4 @@ prelude:
 
 
 benchmark:
-  so_object:
+  so_object: |

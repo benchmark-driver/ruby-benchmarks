@@ -6,4 +6,4 @@ prelude:
   end
 
 benchmark:
-  vm2_array:
+  vm2_array: |

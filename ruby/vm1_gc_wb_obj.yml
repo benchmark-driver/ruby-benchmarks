@@ -16,4 +16,4 @@ prelude:
   end
 
 benchmark:
-  vm1_gc_wb_obj:
+  vm1_gc_wb_obj: |
