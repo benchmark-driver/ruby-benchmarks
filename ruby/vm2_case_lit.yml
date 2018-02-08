@@ -21,3 +21,5 @@ prelude: |
 
 benchmark:
   vm2_case_lit: |
+
+loop_count: 1

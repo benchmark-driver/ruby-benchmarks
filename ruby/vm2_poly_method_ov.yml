@@ -22,3 +22,5 @@ prelude: |
 
 benchmark:
   vm2_poly_method_ov: |
+
+loop_count: 1

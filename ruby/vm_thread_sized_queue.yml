@@ -22,3 +22,5 @@ prelude: |
 
 benchmark:
   vm_thread_sized_queue: |
+
+loop_count: 1

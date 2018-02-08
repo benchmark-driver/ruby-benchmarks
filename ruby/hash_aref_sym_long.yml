@@ -15,3 +15,5 @@ prelude: |
 
 benchmark:
   hash_aref_sym_long: |
+
+loop_count: 1

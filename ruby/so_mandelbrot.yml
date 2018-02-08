@@ -59,3 +59,5 @@ prelude: |
 
 benchmark:
   so_mandelbrot: |
+
+loop_count: 1

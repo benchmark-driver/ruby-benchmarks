@@ -6,3 +6,5 @@ prelude: |
 
 benchmark:
   hash_long: |
+
+loop_count: 1

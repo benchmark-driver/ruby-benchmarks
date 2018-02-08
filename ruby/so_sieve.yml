@@ -26,3 +26,5 @@ prelude: |
 
 benchmark:
   so_sieve: |
+
+loop_count: 1

@@ -26,3 +26,5 @@ prelude: |
 
 benchmark:
   so_nested_loop: |
+
+loop_count: 1

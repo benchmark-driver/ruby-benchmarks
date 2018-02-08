@@ -17,3 +17,5 @@ prelude: |
 
 benchmark:
   vm1_gc_wb_obj: |
+
+loop_count: 1

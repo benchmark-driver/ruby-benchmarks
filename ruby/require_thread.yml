@@ -17,3 +17,5 @@ prelude: |
 
 benchmark:
   require_thread: |
+
+loop_count: 1

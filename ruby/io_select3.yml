@@ -23,3 +23,5 @@ prelude: |
 
 benchmark:
   io_select3: |
+
+loop_count: 1

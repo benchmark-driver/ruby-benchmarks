@@ -150,3 +150,5 @@ prelude: |
 
 benchmark:
   so_nbody: |
+
+loop_count: 1

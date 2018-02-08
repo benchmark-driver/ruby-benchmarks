@@ -32,3 +32,5 @@ prelude: |
 
 benchmark:
   so_reverse_complement: |
+
+loop_count: 1

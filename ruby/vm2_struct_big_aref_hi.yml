@@ -9,3 +9,5 @@ prelude: |
 
 benchmark:
   vm2_struct_big_aref_hi: |
+
+loop_count: 1

@@ -20,3 +20,5 @@ prelude: |
 
 benchmark:
   so_concatenate: |
+
+loop_count: 1

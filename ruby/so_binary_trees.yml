@@ -64,3 +64,5 @@ prelude: |
 
 benchmark:
   so_binary_trees: |
+
+loop_count: 1

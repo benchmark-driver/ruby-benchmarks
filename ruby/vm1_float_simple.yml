@@ -9,3 +9,5 @@ prelude: |
 
 benchmark:
   vm1_float_simple: |
+
+loop_count: 1

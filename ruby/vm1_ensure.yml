@@ -13,3 +13,5 @@ prelude: |
 
 benchmark:
   vm1_ensure: |
+
+loop_count: 1

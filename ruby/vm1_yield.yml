@@ -12,3 +12,5 @@ prelude: |
 
 benchmark:
   vm1_yield: |
+
+loop_count: 1

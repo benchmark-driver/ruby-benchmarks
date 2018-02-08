@@ -19,3 +19,5 @@ prelude: |
 
 benchmark:
   vm_thread_pipe: |
+
+loop_count: 1

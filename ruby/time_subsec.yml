@@ -4,3 +4,5 @@ prelude: |
 
 benchmark:
   time_subsec: |
+
+loop_count: 1

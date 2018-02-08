@@ -6,3 +6,5 @@ prelude: |
 
 benchmark:
   hash_aref_str: |
+
+loop_count: 1

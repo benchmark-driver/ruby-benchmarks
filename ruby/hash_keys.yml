@@ -11,3 +11,5 @@ prelude: |
 
 benchmark:
   hash_keys: |
+
+loop_count: 1

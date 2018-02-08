@@ -8,3 +8,5 @@ prelude: |
 
 benchmark:
   vm2_regexp: |
+
+loop_count: 1

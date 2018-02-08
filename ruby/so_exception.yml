@@ -63,3 +63,5 @@ prelude: |
 
 benchmark:
   so_exception: |
+
+loop_count: 1

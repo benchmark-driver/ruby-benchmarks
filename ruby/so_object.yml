@@ -58,3 +58,5 @@ prelude: |
 
 benchmark:
   so_object: |
+
+loop_count: 1

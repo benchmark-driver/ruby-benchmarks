@@ -11,3 +11,5 @@ prelude: |
 
 benchmark:
   file_chmod: |
+
+loop_count: 1

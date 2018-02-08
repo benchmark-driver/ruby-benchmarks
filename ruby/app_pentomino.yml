@@ -261,3 +261,5 @@ prelude: |
 
 benchmark:
   app_pentomino: |
+
+loop_count: 1

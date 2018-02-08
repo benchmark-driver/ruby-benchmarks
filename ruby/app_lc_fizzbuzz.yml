@@ -54,3 +54,5 @@ prelude: |
 
 benchmark:
   app_lc_fizzbuzz: |
+
+loop_count: 1

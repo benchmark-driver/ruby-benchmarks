@@ -25,3 +25,5 @@ prelude: |
 
 benchmark:
   app_mandelbrot: |
+
+loop_count: 1

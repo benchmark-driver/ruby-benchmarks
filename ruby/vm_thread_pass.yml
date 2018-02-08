@@ -17,3 +17,5 @@ prelude: |
 
 benchmark:
   vm_thread_pass: |
+
+loop_count: 1

@@ -7,3 +7,5 @@ prelude: |
 
 benchmark:
   vm2_bighash: |
+
+loop_count: 1

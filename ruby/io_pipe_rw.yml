@@ -15,3 +15,5 @@ prelude: |
 
 benchmark:
   io_pipe_rw: |
+
+loop_count: 1

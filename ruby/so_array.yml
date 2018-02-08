@@ -25,3 +25,5 @@ prelude: |
 
 benchmark:
   so_array: |
+
+loop_count: 1

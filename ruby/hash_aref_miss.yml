@@ -7,3 +7,5 @@ prelude: |
 
 benchmark:
   hash_aref_miss: |
+
+loop_count: 1

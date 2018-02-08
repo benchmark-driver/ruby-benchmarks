@@ -9,3 +9,5 @@ prelude: |
 
 benchmark:
   vm2_struct_small_hset: |
+
+loop_count: 1

@@ -16,3 +16,5 @@ prelude: |
 
 benchmark:
   io_file_write: |
+
+loop_count: 1

@@ -83,3 +83,5 @@ prelude: |
 
 benchmark:
   so_fasta: |
+
+loop_count: 1

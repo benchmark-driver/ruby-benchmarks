@@ -16,3 +16,5 @@ prelude: |
 
 benchmark:
   vm2_proc: |
+
+loop_count: 1

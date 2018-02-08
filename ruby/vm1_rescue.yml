@@ -9,3 +9,5 @@ prelude: |
 
 benchmark:
   vm1_rescue: |
+
+loop_count: 1

@@ -3,3 +3,5 @@ prelude: |
 
 benchmark:
   marshal_dump_load_time: |
+
+loop_count: 1

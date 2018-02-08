@@ -16,3 +16,5 @@ prelude: |
 
 benchmark:
   array_shift: |
+
+loop_count: 1

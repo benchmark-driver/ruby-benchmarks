@@ -15,3 +15,5 @@ prelude: |
 
 benchmark:
   vm_symbol_block_pass: |
+
+loop_count: 1

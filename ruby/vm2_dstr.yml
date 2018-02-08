@@ -8,3 +8,5 @@ prelude: |
 
 benchmark:
   vm2_dstr: |
+
+loop_count: 1

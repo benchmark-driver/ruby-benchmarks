@@ -52,3 +52,5 @@ prelude: |
 
 benchmark:
   so_spectralnorm: |
+
+loop_count: 1

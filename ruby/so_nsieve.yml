@@ -37,3 +37,5 @@ prelude: |
 
 benchmark:
   so_nsieve: |
+
+loop_count: 1

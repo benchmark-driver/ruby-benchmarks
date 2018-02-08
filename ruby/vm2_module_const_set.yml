@@ -10,3 +10,5 @@ prelude: |
 
 benchmark:
   vm2_module_const_set: |
+
+loop_count: 1

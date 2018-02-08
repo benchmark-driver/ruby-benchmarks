@@ -12,3 +12,5 @@ prelude: |
 
 benchmark:
   app_tarai: |
+
+loop_count: 1

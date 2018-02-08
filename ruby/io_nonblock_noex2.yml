@@ -23,3 +23,5 @@ prelude: |
 
 benchmark:
   io_nonblock_noex2: |
+
+loop_count: 1

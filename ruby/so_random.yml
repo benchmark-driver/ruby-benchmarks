@@ -22,3 +22,5 @@ prelude: |
 
 benchmark:
   so_random: |
+
+loop_count: 1

@@ -8,3 +8,5 @@ prelude: |
 
 benchmark:
   vm2_eval: |
+
+loop_count: 1

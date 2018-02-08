@@ -14,3 +14,5 @@ prelude: |
 
 benchmark:
   vm2_method_missing: |
+
+loop_count: 1

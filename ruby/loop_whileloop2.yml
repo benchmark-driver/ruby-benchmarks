@@ -6,3 +6,5 @@ prelude: |
 
 benchmark:
   loop_whileloop2: |
+
+loop_count: 1

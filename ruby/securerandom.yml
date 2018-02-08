@@ -7,3 +7,5 @@ prelude: |
 
 benchmark:
   securerandom: |
+
+loop_count: 1

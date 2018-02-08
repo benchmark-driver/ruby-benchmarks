@@ -11,3 +11,5 @@ prelude: |
 
 benchmark:
   vm2_method_with_block: |
+
+loop_count: 1

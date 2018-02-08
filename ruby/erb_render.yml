@@ -28,3 +28,5 @@ prelude: |
 
 benchmark:
   erb_render: |
+
+loop_count: 1

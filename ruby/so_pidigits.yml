@@ -94,3 +94,5 @@ prelude: |
 
 benchmark:
   so_pidigits: |
+
+loop_count: 1

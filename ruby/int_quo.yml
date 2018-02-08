@@ -3,3 +3,5 @@ prelude: |
 
 benchmark:
   int_quo: |
+
+loop_count: 1

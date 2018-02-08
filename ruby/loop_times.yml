@@ -3,3 +3,5 @@ prelude: |
 
 benchmark:
   loop_times: |
+
+loop_count: 1

@@ -14,3 +14,5 @@ prelude: |
 
 benchmark:
   vm2_send: |
+
+loop_count: 1

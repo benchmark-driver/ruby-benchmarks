@@ -15,3 +15,5 @@ prelude: |
 
 benchmark:
   app_tak: |
+
+loop_count: 1

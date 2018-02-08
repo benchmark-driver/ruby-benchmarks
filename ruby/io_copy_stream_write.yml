@@ -26,3 +26,5 @@ prelude: |
 
 benchmark:
   io_copy_stream_write: |
+
+loop_count: 1

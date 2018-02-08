@@ -20,3 +20,5 @@ prelude: |
 
 benchmark:
   vm1_lvar_init: |
+
+loop_count: 1

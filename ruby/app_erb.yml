@@ -28,3 +28,5 @@ prelude: |
 
 benchmark:
   app_erb: |
+
+loop_count: 1

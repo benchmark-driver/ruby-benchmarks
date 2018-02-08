@@ -4,3 +4,5 @@ prelude: |
 
 benchmark:
   marshal_dump_flo: |
+
+loop_count: 1

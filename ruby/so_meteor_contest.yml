@@ -565,3 +565,5 @@ prelude: |
 
 benchmark:
   so_meteor_contest: |
+
+loop_count: 1

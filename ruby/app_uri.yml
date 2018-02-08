@@ -10,3 +10,5 @@ prelude: |
 
 benchmark:
   app_uri: |
+
+loop_count: 1

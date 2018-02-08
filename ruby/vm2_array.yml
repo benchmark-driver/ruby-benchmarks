@@ -7,3 +7,5 @@ prelude: |
 
 benchmark:
   vm2_array: |
+
+loop_count: 1

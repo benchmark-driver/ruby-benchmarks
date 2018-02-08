@@ -6,3 +6,5 @@ prelude: |
 
 benchmark:
   vm3_gc_old_immediate: |
+
+loop_count: 1

@@ -3,3 +3,5 @@ prelude: |
 
 benchmark:
   hash_small8: |
+
+loop_count: 1

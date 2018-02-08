@@ -37,3 +37,5 @@ prelude: |
 
 benchmark:
   vm_thread_condvar2: |
+
+loop_count: 1

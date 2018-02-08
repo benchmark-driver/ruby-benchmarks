@@ -19,3 +19,5 @@ prelude: |
 
 benchmark:
   vm1_gc_wb_obj_promoted: |
+
+loop_count: 1

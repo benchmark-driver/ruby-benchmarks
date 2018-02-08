@@ -23,3 +23,5 @@ prelude: |
 
 benchmark:
   hash_aref_dsym_long: |
+
+loop_count: 1

@@ -10,3 +10,5 @@ prelude: |
 
 benchmark:
   vm1_swap: |
+
+loop_count: 1

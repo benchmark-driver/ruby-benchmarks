@@ -7,3 +7,5 @@ prelude: |
 
 benchmark:
   app_strconcat: |
+
+loop_count: 1

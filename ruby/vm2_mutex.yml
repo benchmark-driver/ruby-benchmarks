@@ -11,3 +11,5 @@ prelude: |
 
 benchmark:
   vm2_mutex: |
+
+loop_count: 1

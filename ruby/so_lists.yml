@@ -49,3 +49,5 @@ prelude: |
 
 benchmark:
   so_lists: |
+
+loop_count: 1

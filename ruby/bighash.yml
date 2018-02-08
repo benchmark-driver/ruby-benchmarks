@@ -3,3 +3,5 @@ prelude: |
 
 benchmark:
   bighash: |
+
+loop_count: 1

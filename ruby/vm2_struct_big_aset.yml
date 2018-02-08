@@ -9,3 +9,5 @@ prelude: |
 
 benchmark:
   vm2_struct_big_aset: |
+
+loop_count: 1

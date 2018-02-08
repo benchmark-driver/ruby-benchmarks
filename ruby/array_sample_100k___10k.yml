@@ -4,3 +4,5 @@ prelude: |
 
 benchmark:
   array_sample_100k___10k: |
+
+loop_count: 1

@@ -9,3 +9,5 @@ prelude: |
 
 benchmark:
   require: |
+
+loop_count: 1

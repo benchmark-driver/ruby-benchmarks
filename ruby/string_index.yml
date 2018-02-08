@@ -5,3 +5,5 @@ prelude: |
 
 benchmark:
   string_index: |
+
+loop_count: 1

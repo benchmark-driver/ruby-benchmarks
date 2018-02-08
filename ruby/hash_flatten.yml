@@ -11,3 +11,5 @@ prelude: |
 
 benchmark:
   hash_flatten: |
+
+loop_count: 1

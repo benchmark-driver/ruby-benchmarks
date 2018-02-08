@@ -11,3 +11,5 @@ prelude: |
 
 benchmark:
   hash_to_proc: |
+
+loop_count: 1

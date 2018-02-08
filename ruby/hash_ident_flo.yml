@@ -6,3 +6,5 @@ prelude: |
 
 benchmark:
   hash_ident_flo: |
+
+loop_count: 1

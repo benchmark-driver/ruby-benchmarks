@@ -10,3 +10,5 @@ prelude: |
 
 benchmark:
   vm2_unif1: |
+
+loop_count: 1

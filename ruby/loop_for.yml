@@ -5,3 +5,5 @@ prelude: |
 
 benchmark:
   loop_for: |
+
+loop_count: 1

@@ -4,3 +4,5 @@ prelude: |
 
 benchmark:
   string_scan_re: |
+
+loop_count: 1

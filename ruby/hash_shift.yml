@@ -12,3 +12,5 @@ prelude: |
 
 benchmark:
   hash_shift: |
+
+loop_count: 1

@@ -7,3 +7,5 @@ prelude: |
 
 benchmark:
   vm2_newlambda: |
+
+loop_count: 1

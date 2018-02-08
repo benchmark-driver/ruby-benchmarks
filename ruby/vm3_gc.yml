@@ -8,3 +8,5 @@ prelude: |
 
 benchmark:
   vm3_gc: |
+
+loop_count: 1

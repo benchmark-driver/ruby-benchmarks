@@ -15,3 +15,5 @@ prelude: |
 
 benchmark:
   vm1_gc_short_with_long: |
+
+loop_count: 1

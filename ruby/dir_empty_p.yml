@@ -7,3 +7,5 @@ prelude: |
 
 benchmark:
   dir_empty_p: |
+
+loop_count: 1

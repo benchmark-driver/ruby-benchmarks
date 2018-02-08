@@ -4,3 +4,5 @@ prelude: |
 
 benchmark:
   array_sort_block: |
+
+loop_count: 1

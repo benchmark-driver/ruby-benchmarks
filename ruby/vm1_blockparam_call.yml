@@ -11,3 +11,5 @@ prelude: |
 
 benchmark:
   vm1_blockparam_call: |
+
+loop_count: 1

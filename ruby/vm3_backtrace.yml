@@ -24,3 +24,5 @@ prelude: |
 
 benchmark:
   vm3_backtrace: |
+
+loop_count: 1

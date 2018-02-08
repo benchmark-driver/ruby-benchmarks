@@ -10,3 +10,5 @@ prelude: |
 
 benchmark:
   vm3_clearmethodcache: |
+
+loop_count: 1

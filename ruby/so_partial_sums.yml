@@ -33,3 +33,5 @@ prelude: |
 
 benchmark:
   so_partial_sums: |
+
+loop_count: 1

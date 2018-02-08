@@ -13,3 +13,5 @@ prelude: |
 
 benchmark:
   file_rename: |
+
+loop_count: 1

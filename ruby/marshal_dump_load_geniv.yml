@@ -12,3 +12,5 @@ prelude: |
 
 benchmark:
   marshal_dump_load_geniv: |
+
+loop_count: 1

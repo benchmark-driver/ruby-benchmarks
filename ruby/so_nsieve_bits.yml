@@ -45,3 +45,5 @@ prelude: |
 
 benchmark:
   so_nsieve_bits: |
+
+loop_count: 1

@@ -22,3 +22,5 @@ prelude: |
 
 benchmark:
   vm2_super: |
+
+loop_count: 1

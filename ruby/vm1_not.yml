@@ -9,3 +9,5 @@ prelude: |
 
 benchmark:
   vm1_not: |
+
+loop_count: 1

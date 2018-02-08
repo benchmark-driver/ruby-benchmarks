@@ -10,3 +10,5 @@ prelude: |
 
 benchmark:
   app_raise: |
+
+loop_count: 1

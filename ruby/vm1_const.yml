@@ -10,3 +10,5 @@ prelude: |
 
 benchmark:
   vm1_const: |
+
+loop_count: 1

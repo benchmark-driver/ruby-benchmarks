@@ -23,3 +23,5 @@ prelude: |
 
 benchmark:
   vm_thread_mutex2: |
+
+loop_count: 1

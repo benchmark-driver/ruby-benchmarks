@@ -13,3 +13,5 @@ prelude: |
 
 benchmark:
   app_factorial: |
+
+loop_count: 1

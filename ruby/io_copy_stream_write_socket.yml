@@ -37,3 +37,5 @@ prelude: |
 
 benchmark:
   io_copy_stream_write_socket: |
+
+loop_count: 1

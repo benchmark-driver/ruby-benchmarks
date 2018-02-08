@@ -16,3 +16,5 @@ prelude: |
 
 benchmark:
   loop_generator: |
+
+loop_count: 1

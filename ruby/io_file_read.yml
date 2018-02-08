@@ -17,3 +17,5 @@ prelude: |
 
 benchmark:
   io_file_read: |
+
+loop_count: 1

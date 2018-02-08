@@ -50,3 +50,5 @@ prelude: |
 
 benchmark:
   so_k_nucleotide: |
+
+loop_count: 1
