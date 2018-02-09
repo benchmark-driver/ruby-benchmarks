@@ -5,9 +5,10 @@ prelude: |
   # Ruby(yarv2llvm) version by Hideki Miura
   #
 
-  image_width = 256
-  image_height = 256
-  nsub_samples = 2
+  IMAGE_WIDTH = 256
+  IMAGE_HEIGHT = 256
+  NSUBSAMPLES = 2
+  NAO_SAMPLES = 8
 
   class Vec
     def initialize(x, y, z)
@@ -181,8 +182,8 @@ prelude: |
       basis = Array.new
       otherBasis(basis, isect.n)
 
-      ntheta    = 8
-      nphi      = 8
+      ntheta    = NAO_SAMPLES
+      nphi      = NAO_SAMPLES
       eps       = 0.0001
       occlusion = 0.0
 
@@ -284,9 +285,12 @@ benchmark:
   app_aobench: |
     # File.open("ao.ppm", "w") do |fp|
       printf("P6\n")
-      printf("%d %d\n", image_width, image_height)
-      printf("255\n", image_width, image_height)
-      Scene.new.render(image_width, image_height, nsub_samples)
+      printf("%d %d\n", IMAGE_WIDTH, IMAGE_HEIGHT)
+      printf("255\n", IMAGE_WIDTH, IMAGE_HEIGHT)
+      Scene.new.render(IMAGE_WIDTH, IMAGE_HEIGHT, NSUBSAMPLES)
     # end
+
+    undef printf
+    alias printf printf_orig
 
 loop_count: 1

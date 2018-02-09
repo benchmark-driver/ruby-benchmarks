@@ -45,14 +45,13 @@ prelude: |
     to_array(s).map { |c| to_char(c) }.join
   end
 
-  answer = to_array(solution).map do |p|
-    to_string(p)
-  end
-
-  answer_ary = answer.to_a
-  # puts answer_ary
-
 benchmark:
   app_lc_fizzbuzz: |
+    answer = to_array(solution).map do |p|
+      to_string(p)
+    end
+
+    answer_ary = answer.to_a
+    # puts answer_ary
 
 loop_count: 1
