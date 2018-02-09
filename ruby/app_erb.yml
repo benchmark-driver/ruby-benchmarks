@@ -5,17 +5,7 @@ prelude: |
 
   require 'erb'
 
-  data = DATA.read
-  max = 15_000
-  title = "hello world!"
-  content = "hello world!\n" * 10
-
-  max.times{
-    ERB.new(data).result(binding)
-  }
-
-  __END__
-
+  data = <<-EOS
   <html>
     <head> <%= title %> </head>
     <body>
@@ -25,8 +15,13 @@ prelude: |
       </p>
     </body>
   </html>
+  EOS
+
+  title = "hello world!"
+  content = "hello world!\n" * 10
 
 benchmark:
   app_erb: |
+    ERB.new(data).result(binding)
 
-loop_count: 1
+loop_count: 15000

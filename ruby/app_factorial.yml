@@ -7,11 +7,8 @@ prelude: |
     end
   end
 
-  100.times {
-    fact(5000)
-  }
-
 benchmark:
   app_factorial: |
+    fact(5000)
 
-loop_count: 1
+loop_count: 100
