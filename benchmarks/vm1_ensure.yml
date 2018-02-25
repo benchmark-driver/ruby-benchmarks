@@ -11,4 +11,5 @@ benchmark:
       end
     end
 
+# too fast to remove while loop
 loop_count: 1

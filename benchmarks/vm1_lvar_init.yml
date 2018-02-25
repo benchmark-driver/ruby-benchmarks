@@ -12,6 +12,12 @@ prelude: |
 
 benchmark:
   vm1_lvar_init: |
-    m i
+    i = 0
 
-loop_count: 30_000_000
+    while i<30_000_000
+      i += 1
+      m i
+    end
+
+# too fast to remove while loop
+loop_count: 1
