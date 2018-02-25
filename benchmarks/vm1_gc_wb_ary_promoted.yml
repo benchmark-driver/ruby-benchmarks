@@ -7,14 +7,10 @@ prelude: |
     GC.start
   end
 
-  i = 0
   short_lived = ''
-  while i<30_000_000 # while loop 1
-    long_lived[0] = short_lived # write barrier
-    i+=1
-  end
 
 benchmark:
   vm1_gc_wb_ary_promoted: |
+    long_lived[0] = short_lived # write barrier
 
-loop_count: 1
+loop_count: 30_000_000

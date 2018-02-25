@@ -1,16 +1,10 @@
-prelude: |
-  i = 0
-  while i<30_000_000 # while loop 1
+benchmark:
+  vm1_gc_short_lived: |
     a = '' # short-lived String
     b = ''
     c = ''
     d = ''
     e = ''
     f = ''
-    i+=1
-  end
 
-benchmark:
-  vm1_gc_short_lived: |
-
-loop_count: 1
+loop_count: 30_000_000

@@ -10,15 +10,8 @@ prelude: |
     end
   end
 
-  i = 0
-
-  while i<30_000_000 # while loop 1
-    i += 1
-    m i
-  end
-
-
 benchmark:
   vm1_lvar_init: |
+    m i
 
-loop_count: 1
+loop_count: 30_000_000
