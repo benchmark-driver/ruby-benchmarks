@@ -3,9 +3,9 @@ prelude: |
   strs = ('a'..'z').to_a.map!(&:freeze)
   strs.each { |s| h[s] = s }
   strs = ('A'..'Z').to_a
-  200_000.times { strs.each { |s| h[s] } }
 
 benchmark:
   hash_aref_miss: |
+    200_000.times { strs.each { |s| h[s] } }
 
 loop_count: 1

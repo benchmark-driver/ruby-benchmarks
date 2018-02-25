@@ -7,9 +7,9 @@ prelude: |
     syms.map!(&:to_sym)
   end
   syms.each { |s| h[s] = s }
-  200_000.times { syms.each { |s| h[s] } }
 
 benchmark:
   hash_aref_sym: |
+    200_000.times { syms.each { |s| h[s] } }
 
 loop_count: 1

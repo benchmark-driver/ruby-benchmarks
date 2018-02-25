@@ -9,15 +9,14 @@ prelude: |
     end
   end
 
-  ITERATIONS.times do
-    ARRAYS.each do |group|
-      group.each do |arr1, arr2|
-        arr1 | arr2
-      end
-    end
-  end
-
 benchmark:
   array_small_or: |
+    ITERATIONS.times do
+      ARRAYS.each do |group|
+        group.each do |arr1, arr2|
+          arr1 | arr2
+        end
+      end
+    end
 
 loop_count: 1

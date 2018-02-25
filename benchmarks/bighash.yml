@@ -1,7 +1,8 @@
 prelude: |
-  h = {}; 5000000.times {|n| h[n] = n }
+  h = {};
 
 benchmark:
   bighash: |
+    5000000.times {|n| h[n] = n }
 
 loop_count: 1

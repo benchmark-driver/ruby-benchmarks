@@ -1,21 +1,7 @@
 prelude: |
   require 'erb'
 
-  data = DATA.read
-  max = 1_500_000
-  title = "hello world!"
-  content = "hello world!\n" * 10
-
-  src = "def self.render(title, content); #{ERB.new(data).src}; end"
-  mod = Module.new
-  mod.instance_eval(src, "(ERB)")
-
-  max.times do
-    mod.render(title, content)
-  end
-
-  __END__
-
+  data = <<-DATA
   <html>
     <head> <%= title %> </head>
     <body>
@@ -25,8 +11,16 @@ prelude: |
       </p>
     </body>
   </html>
+  DATA
+  title = "hello world!"
+  content = "hello world!\n" * 10
+
+  src = "def self.render(title, content); #{ERB.new(data).src}; end"
+  mod = Module.new
+  mod.instance_eval(src, "(ERB)")
 
 benchmark:
   erb_render: |
+    mod.render(title, content)
 
-loop_count: 1
+loop_count: 1_500_000
