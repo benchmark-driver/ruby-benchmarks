@@ -1,14 +1,13 @@
 prelude: |
   require 'uri'
 
-  100_000.times{
-    uri = URI.parse('http://www.ruby-lang.org')
-    uri.scheme
-    uri.host
-    uri.port
-  }
-
 benchmark:
   app_uri: |
+    100_000.times{
+      uri = URI.parse('http://www.ruby-lang.org')
+      uri.scheme
+      uri.host
+      uri.port
+    }
 
 loop_count: 1

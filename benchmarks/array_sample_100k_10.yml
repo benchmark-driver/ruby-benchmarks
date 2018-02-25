@@ -1,8 +1,8 @@
 prelude: |
   arr = [*0...100000]
-  10_000.times {arr.sample 10}
 
 benchmark:
   array_sample_100k_10: |
+    10_000.times {arr.sample 10}
 
 loop_count: 1

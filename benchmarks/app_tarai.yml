@@ -8,9 +8,8 @@ prelude: |
     end
   end
 
-  tarai(12, 6, 0)
-
 benchmark:
   app_tarai: |
+    tarai(12, 6, 0)
 
 loop_count: 1

@@ -1,5 +1,4 @@
 prelude: |
-
   def tak x, y, z
     unless y < x
       z
@@ -10,10 +9,8 @@ prelude: |
     end
   end
 
-  tak(18, 9, 0)
-
-
 benchmark:
   app_tak: |
+    tak(18, 9, 0)
 
 loop_count: 1
