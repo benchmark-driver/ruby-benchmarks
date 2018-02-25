@@ -535,35 +535,33 @@ prelude: |
     end
   end
 
-
-  ##
-  ## MAIN BODY :)
-  ##
-  create_collector_support
-  @pieces = [
-    Piece.new( [ :nw, :ne, :east, :east ], 2),
-    Piece.new( [ :ne, :se, :east, :ne ], 7),
-    Piece.new( [ :ne, :east, :ne, :nw ], 1),
-    Piece.new( [ :east, :sw, :sw, :se ], 6),
-    Piece.new( [ :east, :ne, :se, :ne ], 5),
-    Piece.new( [ :east, :east, :east, :se ], 0),
-    Piece.new( [ :ne, :nw, :se, :east, :se ], 4),
-    Piece.new( [ :se, :se, :se, :west ], 9),
-    Piece.new( [ :se, :se, :east, :se ], 8),
-    Piece.new( [ :east, :east, :sw, :se ], 3)
-    ];
-
-  @all_pieces = Array.new( @pieces)
-
-  @min_board = "99999999999999999999999999999999999999999999999999"
-  @max_board = "00000000000000000000000000000000000000000000000000"
-  @stop_count = ARGV[0].to_i || 2089
-  @all_boards = {}
-  @boards_found = 0
-
-  find_all ######## DO IT!!!
-
 benchmark:
   so_meteor_contest: |
+    ##
+    ## MAIN BODY :)
+    ##
+    create_collector_support
+    @pieces = [
+      Piece.new( [ :nw, :ne, :east, :east ], 2),
+      Piece.new( [ :ne, :se, :east, :ne ], 7),
+      Piece.new( [ :ne, :east, :ne, :nw ], 1),
+      Piece.new( [ :east, :sw, :sw, :se ], 6),
+      Piece.new( [ :east, :ne, :se, :ne ], 5),
+      Piece.new( [ :east, :east, :east, :se ], 0),
+      Piece.new( [ :ne, :nw, :se, :east, :se ], 4),
+      Piece.new( [ :se, :se, :se, :west ], 9),
+      Piece.new( [ :se, :se, :east, :se ], 8),
+      Piece.new( [ :east, :east, :sw, :se ], 3)
+      ];
+
+    @all_pieces = Array.new( @pieces)
+
+    @min_board = "99999999999999999999999999999999999999999999999999"
+    @max_board = "00000000000000000000000000000000000000000000000000"
+    @stop_count = ARGV[0].to_i || 2089
+    @all_boards = {}
+    @boards_found = 0
+
+    find_all ######## DO IT!!!
 
 loop_count: 1

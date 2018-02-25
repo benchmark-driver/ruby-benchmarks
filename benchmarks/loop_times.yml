@@ -1,7 +1,5 @@
-prelude: |
-  30_000_000.times{|e|}
-
 benchmark:
   loop_times: |
+    30_000_000.times{|e|}
 
 loop_count: 1

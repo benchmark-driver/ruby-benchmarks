@@ -38,17 +38,14 @@ prelude: |
       m3
   end
 
-  m1 = mkmatrix(size, size)
-  m2 = mkmatrix(size, size)
-  mm = Array.new
-  n.times do
-      mm = mmult(size, size, m1, m2)
-  end
-  # puts "#{mm[0][0]} #{mm[2][3]} #{mm[3][2]} #{mm[4][4]}"
-
-
-
 benchmark:
   so_matrix: |
+    m1 = mkmatrix(size, size)
+    m2 = mkmatrix(size, size)
+    mm = Array.new
+    n.times do
+        mm = mmult(size, size, m1, m2)
+    end
+    # puts "#{mm[0][0]} #{mm[2][3]} #{mm[3][2]} #{mm[4][4]}"
 
 loop_count: 1

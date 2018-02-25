@@ -8,18 +8,17 @@ prelude: |
   input = open(File.join(File.dirname($0), 'wc.input'), 'rb')
 
   nl = nw = nc = 0
-  while true
-    tmp = input.read(4096) or break
-    data = tmp << (input.gets || "")
-    nc += data.length
-    nl += data.count("\n")
-    ((data.strip! || data).tr!("\n", " ") || data).squeeze!
-    nw += data.count(" ") + 1
-  end
-  # STDERR.puts "#{nl} #{nw} #{nc}"
-
 
 benchmark:
   so_count_words: |
+    while true
+      tmp = input.read(4096) or break
+      data = tmp << (input.gets || "")
+      nc += data.length
+      nl += data.count("\n")
+      ((data.strip! || data).tr!("\n", " ") || data).squeeze!
+      nw += data.count(" ") + 1
+    end
+    # STDERR.puts "#{nl} #{nw} #{nc}"
 
 loop_count: 1

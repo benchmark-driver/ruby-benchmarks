@@ -39,15 +39,14 @@ prelude: |
     end
   end
 
-  i = 0
-  while i<NUM
-    i += 1
-    result = test_lists()
-  end
-
-  result
-
 benchmark:
   so_lists: |
+    i = 0
+    while i<NUM
+      i += 1
+      result = test_lists()
+    end
+
+    result
 
 loop_count: 1

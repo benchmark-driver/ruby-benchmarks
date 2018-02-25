@@ -14,16 +14,13 @@ prelude: |
     x[bi] = bi + 1
   }
 
-  (0 .. 999).each do |e|
-    (n-1).step(0,-1) do |bi|
-      y[bi] += x.at(bi)
-    end
-  end
-  # puts "#{y.first} #{y.last}"
-
-
-
 benchmark:
   so_array: |
+    (0 .. 999).each do |e|
+      (n-1).step(0,-1) do |bi|
+        y[bi] += x.at(bi)
+      end
+    end
+    # puts "#{y.first} #{y.last}"
 
 loop_count: 1

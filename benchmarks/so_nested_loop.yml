@@ -7,24 +7,22 @@ prelude: |
 
   n = 16 # Integer(ARGV.shift || 1)
   x = 0
-  n.times do
-      n.times do
-          n.times do
-              n.times do
-                  n.times do
-                      n.times do
-                          x += 1
-                      end
-                  end
-              end
-          end
-      end
-  end
-  # puts x
-
-
 
 benchmark:
   so_nested_loop: |
+    n.times do
+        n.times do
+            n.times do
+                n.times do
+                    n.times do
+                        n.times do
+                            x += 1
+                        end
+                    end
+                end
+            end
+        end
+    end
+    # puts x
 
 loop_count: 1

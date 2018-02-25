@@ -1,11 +1,10 @@
 prelude: |
   require "securerandom"
 
-  20_0000.times do
-    SecureRandom.random_number(100)
-  end
-
 benchmark:
   securerandom: |
+    20_0000.times do
+      SecureRandom.random_number(100)
+    end
 
 loop_count: 1

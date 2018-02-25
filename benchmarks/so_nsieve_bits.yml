@@ -34,16 +34,14 @@ prelude: |
     count
   end
 
-  n = 9 # (ARGV[0] || 2).to_i
-  n.step(n - 2, -1) do |exponent|
-    break if exponent < 0
-    m = 2 ** exponent * 10_000
-    count = sieve(m)
-    printf "Primes up to %8d %8d\n", m, count
-  end
-
-
 benchmark:
   so_nsieve_bits: |
+    n = 9 # (ARGV[0] || 2).to_i
+    n.step(n - 2, -1) do |exponent|
+      break if exponent < 0
+      m = 2 ** exponent * 10_000
+      count = sieve(m)
+      printf "Primes up to %8d %8d\n", m, count
+    end
 
 loop_count: 1

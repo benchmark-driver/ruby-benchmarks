@@ -15,11 +15,9 @@ prelude: |
   end
 
   NUM = 9
-  ack(3, NUM)
-
-
 
 benchmark:
   so_ackermann: |
+    ack(3, NUM)
 
 loop_count: 1

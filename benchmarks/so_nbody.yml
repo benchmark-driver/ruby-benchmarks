@@ -137,18 +137,18 @@ prelude: |
   nbodies = BODIES.size
   dt = 0.01
 
-  n.times do
-    i = 0
-    while i < nbodies
-      b = BODIES[i]
-      b.move_from_i(BODIES, nbodies, dt, i + 1)
-      i += 1
-    end
-  end
-
-  puts "%.9f" % energy(BODIES)
-
 benchmark:
   so_nbody: |
+    n.times do
+      i = 0
+      while i < nbodies
+        b = BODIES[i]
+        b.move_from_i(BODIES, nbodies, dt, i + 1)
+        i += 1
+      end
+    end
+
+teardown: |
+  puts "%.9f" % energy(BODIES)
 
 loop_count: 1

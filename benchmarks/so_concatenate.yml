@@ -6,19 +6,12 @@ prelude: |
   # based on code from Aristarkh A Zagorodnikov and Dat Nguyen
 
   STUFF = "hello\n"
-  i = 0
-  while i<10
-    i += 1
+
+benchmark:
+  so_concatenate: |
     hello = ''
     4_000_000.times do |e|
       hello << STUFF
     end
-  end
-  # puts hello.length
 
-
-
-benchmark:
-  so_concatenate: |
-
-loop_count: 1
+loop_count: 10
