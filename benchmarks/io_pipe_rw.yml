@@ -4,16 +4,14 @@ prelude: |
   r, w = IO.pipe
   src = '0'.freeze
   dst = String.new
-  i = 0
-  while i < 1_000_000
-    i += 1
-    w.write(src)
-    r.read(1, dst)
-  end
-  w.close
-  r.close
 
 benchmark:
   io_pipe_rw: |
+    w.write(src)
+    r.read(1, dst)
 
-loop_count: 1
+teardown: |
+  w.close
+  r.close
+
+loop_count: 1_000_000

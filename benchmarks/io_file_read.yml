@@ -10,12 +10,11 @@ prelude: |
   f = Tempfile.new('yarv-benchmark')
   f.write str
 
-  max.times{
-    f.seek 0
-    f.read
-  }
-
 benchmark:
   io_file_read: |
+    max.times{
+      f.seek 0
+      f.read
+    }
 
 loop_count: 1

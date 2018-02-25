@@ -4,12 +4,11 @@ prelude: |
   w = [ IO.pipe[1] ];
 
   nr = 1000000
-  nr.times {
-    IO.select nil, w
-  }
-
 
 benchmark:
   io_select: |
+    nr.times {
+      IO.select nil, w
+    }
 
 loop_count: 1

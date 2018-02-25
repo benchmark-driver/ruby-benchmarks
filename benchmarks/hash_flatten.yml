@@ -5,11 +5,10 @@ prelude: |
     h[i] = nil
   end
 
-  1000.times do
-    h.flatten
-  end
-
 benchmark:
   hash_flatten: |
+    1000.times do
+      h.flatten
+    end
 
 loop_count: 1

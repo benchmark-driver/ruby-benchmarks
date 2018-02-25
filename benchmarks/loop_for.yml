@@ -1,9 +1,7 @@
-prelude: |
-  for i in 1..30_000_000
-    #
-  end
-
 benchmark:
   loop_for: |
+    for i in 1..30_000_000
+      #
+    end
 
 loop_count: 1

@@ -15,27 +15,26 @@ prelude: |
     end
   end
 
-  begin
-    require 'socket'
-    src = Zero.new
-    rd, wr = UNIXSocket.pair
-    pid = fork do
-      wr.close
-      buf = String.new
-      while rd.read(16384, buf)
-      end
-    end
-    rd.close
-    IO.copy_stream(src, wr)
-  rescue Errno::ENOENT, NotImplementedError, NameError
-    # not *nix: missing /dev/zero, fork, or UNIXSocket
-  rescue LoadError # no socket?
-  ensure
-    wr.close if wr
-    Process.waitpid(pid) if pid
-  end if IO.respond_to?(:copy_stream)
-
 benchmark:
   io_copy_stream_write_socket: |
+    begin
+      require 'socket'
+      src = Zero.new
+      rd, wr = UNIXSocket.pair
+      pid = fork do
+        wr.close
+        buf = String.new
+        while rd.read(16384, buf)
+        end
+      end
+      rd.close
+      IO.copy_stream(src, wr)
+    rescue Errno::ENOENT, NotImplementedError, NameError
+      # not *nix: missing /dev/zero, fork, or UNIXSocket
+    rescue LoadError # no socket?
+    ensure
+      wr.close if wr
+      Process.waitpid(pid) if pid
+    end if IO.respond_to?(:copy_stream)
 
 loop_count: 1

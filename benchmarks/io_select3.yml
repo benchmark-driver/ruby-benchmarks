@@ -16,12 +16,10 @@ prelude: |
     ios.push w
   end
 
-  nr.times do
-    IO.select nil, ios
-  end
-
-
 benchmark:
   io_select3: |
+    nr.times do
+      IO.select nil, ios
+    end
 
 loop_count: 1

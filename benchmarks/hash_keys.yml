@@ -5,11 +5,10 @@ prelude: |
     h[i] = nil
   end
 
-  5000.times do
-    h.keys
-  end
-
 benchmark:
   hash_keys: |
+    5000.times do
+      h.keys
+    end
 
 loop_count: 1

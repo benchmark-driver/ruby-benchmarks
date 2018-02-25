@@ -16,15 +16,14 @@ prelude: |
     end
   end
 
-  begin
-    src = Zero.new
-    dst = File.open(IO::NULL, 'wb')
-    n = IO.copy_stream(src, dst)
-  rescue Errno::ENOENT
-    # not *nix
-  end if IO.respond_to?(:copy_stream) && IO.const_defined?(:NULL)
-
 benchmark:
   io_copy_stream_write: |
+    begin
+      src = Zero.new
+      dst = File.open(IO::NULL, 'wb')
+      n = IO.copy_stream(src, dst)
+    rescue Errno::ENOENT
+      # not *nix
+    end if IO.respond_to?(:copy_stream) && IO.const_defined?(:NULL)
 
 loop_count: 1

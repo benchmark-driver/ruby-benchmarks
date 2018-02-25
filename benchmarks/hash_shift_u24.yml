@@ -5,12 +5,11 @@ prelude: |
     h[i] = nil
   end
 
-  300000.times do
-    k, v = h.shift
-    h[k] = v
-  end
-
 benchmark:
   hash_shift_u24: |
+    300000.times do
+      k, v = h.shift
+      h[k] = v
+    end
 
 loop_count: 1
