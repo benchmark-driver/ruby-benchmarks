@@ -1,11 +1,5 @@
-prelude: |
-  i = 0
-  while i<6_000_000 # benchmark loop 2
-    i += 1
-    x = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-  end
-
 benchmark:
   vm2_string_literal: |
+    x = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
-loop_count: 1
+loop_count: 6_000_000

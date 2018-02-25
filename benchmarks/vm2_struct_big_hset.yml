@@ -1,13 +1,13 @@
 prelude: |
   s = Struct.new(*('a'..'z').map { |x| x.to_sym })
   x = s.new
-  i = 0
-  while i<6_000_000 # benchmark loop 2
-    i += 1
-    x[:k] = i
-  end
 
 benchmark:
   vm2_struct_big_hset: |
+    i = 0
+    while i<6_000_000 # benchmark loop 2
+      i += 1
+      x[:k] = i
+    end
 
 loop_count: 1
