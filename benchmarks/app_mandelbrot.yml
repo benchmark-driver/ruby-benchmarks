@@ -13,17 +13,15 @@ prelude: |
 
   ary = []
 
-  (0..1000).each{|dx|
-    (0..1000).each{|dy|
-      x = dx / 50.0
-      y = dy / 50.0
-      c = Complex(x, y)
-      ary << c if mandelbrot?(c)
-    }
-  }
-
-
 benchmark:
   app_mandelbrot: |
+    (0..1000).each{|dx|
+      (0..1000).each{|dy|
+        x = dx / 50.0
+        y = dy / 50.0
+        c = Complex(x, y)
+        ary << c if mandelbrot?(c)
+      }
+    }
 
 loop_count: 1

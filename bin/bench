@@ -1,5 +1,2 @@
 #!/bin/bash
-exec bundle exec benchmark-driver \
-  --compare \
-  -o time \
-  $@
+exec bundle exec benchmark-driver $@

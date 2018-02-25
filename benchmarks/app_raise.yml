@@ -1,14 +1,8 @@
-prelude: |
-  i = 0
-  while i<300000
-    i += 1
+benchmark:
+  app_raise: |
     begin
       raise
     rescue
     end
-  end
 
-benchmark:
-  app_raise: |
-
-loop_count: 1
+loop_count: 300000
