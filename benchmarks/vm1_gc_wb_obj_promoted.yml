@@ -16,4 +16,4 @@ benchmark:
   vm1_gc_wb_obj_promoted: |
     long_lived.foo = short_lived # write barrier
 
-loop_count: 1
+loop_count: 30_000_000
