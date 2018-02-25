@@ -16,21 +16,20 @@ prelude: |
 
   input = open(File.join(File.dirname($0), 'fasta.output.2500000'), 'rb')
 
-  while input.gets
-    if $_ =~ />/
-      if seq.length != 0
-        revcomp(seq.join)
-        seq=Array.new
-      end
-      puts $_
-    else
-      $_.sub(/\n/,'')
-      seq.push $_
-    end
-  end
-  revcomp(seq.join)
-
 benchmark:
   so_reverse_complement: |
+    while input.gets
+      if $_ =~ />/
+        if seq.length != 0
+          revcomp(seq.join)
+          seq=Array.new
+        end
+        puts $_
+      else
+        $_.sub(/\n/,'')
+        seq.push $_
+      end
+    end
+    revcomp(seq.join)
 
 loop_count: 1

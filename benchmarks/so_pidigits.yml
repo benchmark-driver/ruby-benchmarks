@@ -78,21 +78,19 @@ prelude: |
 
   digits = PiDigitSpigot.new
 
-  while n > 0
-      if n >= WIDTH
-          WIDTH.times {print digits.next!}
-          j += WIDTH
-      else
-          n.times {print digits.next!}
-          (WIDTH-n).times {print " "}
-          j += n
-      end
-      puts "\t:"+j.to_s
-      n -= WIDTH
-  end
-
-
 benchmark:
   so_pidigits: |
+    while n > 0
+        if n >= WIDTH
+            WIDTH.times {print digits.next!}
+            j += WIDTH
+        else
+            n.times {print digits.next!}
+            (WIDTH-n).times {print " "}
+            j += n
+        end
+        puts "\t:"+j.to_s
+        n -= WIDTH
+    end
 
 loop_count: 1
