@@ -5,22 +5,22 @@ prelude: |
   m = Thread::Mutex.new
   r = 0
   max = 2000
-  (1..max).map{
-    Thread.new{
-      i = 0
-      while i<max
-        i += 1
-        m.synchronize{
-          r += 1
-        }
-      end
-    }
-  }.each{|e|
-    e.join
-  }
-  raise r.to_s if r != max * max
 
 benchmark:
   vm_thread_mutex3: |
+    (1..max).map{
+      Thread.new{
+        i = 0
+        while i<max
+          i += 1
+          m.synchronize{
+            r += 1
+          }
+        end
+      }
+    }.each{|e|
+      e.join
+    }
+    raise r.to_s if r != max * max
 
 loop_count: 1

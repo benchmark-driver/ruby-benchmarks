@@ -4,20 +4,19 @@ prelude: |
 
   lmax = 100_000
   r, w = IO.pipe
-  [Thread.new{
-    lmax.times{
-      w.write('a')
-    }
-    p "w:exit"
-  }, Thread.new{
-    lmax.times{
-      r.read(1)
-    }
-    p "r:exit"
-  }].each{|t| t.join}
-
 
 benchmark:
   vm_thread_pipe: |
+    [Thread.new{
+      lmax.times{
+        w.write('a')
+      }
+      p "w:exit"
+    }, Thread.new{
+      lmax.times{
+        r.read(1)
+      }
+      p "r:exit"
+    }].each{|t| t.join}
 
 loop_count: 1

@@ -1,14 +1,7 @@
-prelude: |
-  i = 0
-  while i<200_000
-    i += 1
-
+benchmark:
+  vm3_clearmethodcache: |
     Class.new{
       def m; end
     }
-  end
 
-benchmark:
-  vm3_clearmethodcache: |
-
-loop_count: 1
+loop_count: 200_000

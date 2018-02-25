@@ -14,13 +14,8 @@ prelude: |
 
   obj = CC.new
 
-  i = 0
-  while i<6_000_000 # benchmark loop 2
-    obj.m
-    i += 1
-  end
-
 benchmark:
   vm2_super: |
+    obj.m
 
-loop_count: 1
+loop_count: 6_000_000

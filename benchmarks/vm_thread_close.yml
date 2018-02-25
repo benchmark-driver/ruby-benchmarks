@@ -1,12 +1,8 @@
 prelude: |
   1000.times { Thread.new { sleep } }
-  i = 0
-  while i<100_000 # benchmark loop 3
-    i += 1
-    IO.pipe.each(&:close)
-  end
 
 benchmark:
   vm_thread_close: |
+    IO.pipe.each(&:close)
 
-loop_count: 1
+loop_count: 100_000

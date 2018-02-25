@@ -5,17 +5,14 @@ prelude: |
   tmax = (ARGV.shift || 2).to_i
   lmax = 200_000 / tmax
 
-  (1..tmax).map{
-    Thread.new{
-      lmax.times{
-        Thread.pass
-      }
-    }
-  }.each{|t| t.join}
-
-
-
 benchmark:
   vm_thread_pass: |
+    (1..tmax).map{
+      Thread.new{
+        lmax.times{
+          Thread.pass
+        }
+      }
+    }.each{|t| t.join}
 
 loop_count: 1

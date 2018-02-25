@@ -1,12 +1,6 @@
-prelude: |
-  i = 0
-  while i<100_000 # benchmark loop 3
-    i += 1
-    Thread.new{
-    }.join
-  end
-
 benchmark:
   vm_thread_create_join: |
+    Thread.new{
+    }.join
 
-loop_count: 1
+loop_count: 100_000

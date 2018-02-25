@@ -20,9 +20,8 @@ prelude: |
     end
   end
 
-  rec 50
-
 benchmark:
   vm3_backtrace: |
+    rec 50
 
 loop_count: 1
