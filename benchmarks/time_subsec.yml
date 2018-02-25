@@ -1,8 +1,8 @@
 prelude: |
   t = Time.now
-  4000000.times { t.subsec }
 
 benchmark:
   time_subsec: |
+    4000000.times { t.subsec }
 
 loop_count: 1

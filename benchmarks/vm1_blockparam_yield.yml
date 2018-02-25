@@ -3,13 +3,8 @@ prelude: |
     yield
   end
 
-  i = 0
-  while i<30_000_000 # while loop 1
-    i += 1
-    bp_yield{}
-  end
-
 benchmark:
   vm1_blockparam_yield: |
+    bp_yield{}
 
-loop_count: 1
+loop_count: 30_000_000
