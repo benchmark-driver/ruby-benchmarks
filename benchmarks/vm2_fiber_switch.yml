@@ -3,13 +3,9 @@ prelude: |
   fib = Fiber.new do
     loop { Fiber.yield }
   end
-  i = 0
-  while i< 6_000_000 # benchmark loop 2
-    i += 1
-    fib.resume
-  end
 
 benchmark:
   vm2_fiber_switch: |
+    fib.resume
 
-loop_count: 1
+loop_count: 6_000_000

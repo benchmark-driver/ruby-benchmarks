@@ -6,13 +6,8 @@ prelude: |
 
   o = C.new
 
-  i = 0
-  while i<6_000_000 # benchmark loop 2
-    i += 1
-    o.__send__ :m
-  end
-
 benchmark:
   vm2_send: |
+    o.__send__ :m
 
-loop_count: 1
+loop_count: 6_000_000

@@ -7,18 +7,12 @@ prelude: |
     end
   end
 
-  i = 0
-  while i<6_000_000 # benchmark loop 2
-    i += 1
-
+benchmark:
+  vm2_raise2: |
     begin
       rec 10
     rescue
       # ignore
     end
-  end
 
-benchmark:
-  vm2_raise2: |
-
-loop_count: 1
+loop_count: 6_000_000
