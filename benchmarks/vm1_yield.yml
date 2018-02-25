@@ -7,10 +7,8 @@ prelude: |
     end
   end
 
-  m{}
-
-
 benchmark:
   vm1_yield: |
+    m{}
 
 loop_count: 1
